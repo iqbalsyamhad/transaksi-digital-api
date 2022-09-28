@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-09-28T16:14:07.620Z",
+    "modified": "2022-09-28T17:29:56.071Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"\",\n  \"password\": \"\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
       "form": []
     },
     "tests": []

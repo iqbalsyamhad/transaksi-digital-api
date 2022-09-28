@@ -18,6 +18,7 @@ declare namespace Express {
         geometry?: LocationGeometry;
         role: number;
         status: MemberStatus;
+        loginattemp?: any;
     }
 
     interface Request {
