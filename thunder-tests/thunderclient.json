@@ -27,12 +27,12 @@
     "method": "PUT",
     "sortNum": 20000,
     "created": "2022-09-28T16:12:25.344Z",
-    "modified": "2022-09-28T16:12:42.814Z",
+    "modified": "2022-09-28T17:07:01.154Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"865693\"\n}",
       "form": []
     },
     "tests": []
