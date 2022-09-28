@@ -46,12 +46,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-28T16:12:53.626Z",
-    "modified": "2022-09-28T16:13:11.358Z",
+    "modified": "2022-09-28T17:09:57.140Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"roleId\": 1,\n  \"otp\": \"0\"\n}",
       "form": []
     },
     "tests": []
