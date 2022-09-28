@@ -1,0 +1,78 @@
+[
+  {
+    "_id": "319922b1-1e9e-487c-8301-d36556965e31",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "request OTP",
+    "url": "{{baseurl}}/v1/auth/waotp",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-09-28T16:10:26.698Z",
+    "modified": "2022-09-28T16:12:13.544Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b2317ae5-c152-44af-a6bf-21dcac41fc6d",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "validate OTP",
+    "url": "{{baseurl}}/v1/auth/waotp",
+    "method": "PUT",
+    "sortNum": 20000,
+    "created": "2022-09-28T16:12:25.344Z",
+    "modified": "2022-09-28T16:12:42.814Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d4b114ca-4d36-489d-8f3b-3935bf6dae55",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "Register",
+    "url": "{{baseurl}}/v1/auth/register",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-09-28T16:12:53.626Z",
+    "modified": "2022-09-28T16:13:11.358Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "af449884-0ae3-41a1-b040-e265150fd843",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "Login",
+    "url": "{{baseurl}}/v1/auth/login",
+    "method": "POST",
+    "sortNum": 5000,
+    "created": "2022-09-28T16:13:18.207Z",
+    "modified": "2022-09-28T16:14:07.620Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"\",\n  \"password\": \"\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
