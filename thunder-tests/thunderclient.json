@@ -140,5 +140,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "49b52942-985b-4fe2-b539-090aafcb9783",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "name": "delete member type",
+    "url": "{{baseurl}}/v1/member/type/3",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-09-29T10:44:25.972Z",
+    "modified": "2022-09-29T10:44:38.296Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"200000\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
