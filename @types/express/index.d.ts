@@ -15,9 +15,9 @@ declare namespace Express {
         address: string;
         latitude?: number;
         longitude?: number;
-        geometry?: LocationGeometry;
+        geometry?: any;
         role: number;
-        status: MemberStatus;
+        status: 'pending' | 'active' | 'suspend' | 'inactive';
         loginattemp?: any;
     }
 
