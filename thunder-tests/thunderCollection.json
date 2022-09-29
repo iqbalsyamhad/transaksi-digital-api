@@ -5,5 +5,20 @@
     "created": "2022-09-28T16:10:07.328Z",
     "sortNum": 10000,
     "folders": []
+  },
+  {
+    "_id": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "colName": "member",
+    "created": "2022-09-29T08:21:09.569Z",
+    "sortNum": 20000,
+    "folders": [
+      {
+        "_id": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+        "name": "member type",
+        "containerId": "",
+        "created": "2022-09-29T08:21:18.769Z",
+        "sortNum": 10000
+      }
+    ]
   }
 ]

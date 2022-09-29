@@ -74,5 +74,71 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "2b008870-b925-4f0d-9703-b0982e5b1901",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "name": "get all member type",
+    "url": "{{baseurl}}/v1/member/type",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-09-29T08:21:28.353Z",
+    "modified": "2022-09-29T10:39:36.058Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "10d4858a-e4da-4497-b97a-5fbc2fccf8d0",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "name": "get member type by id",
+    "url": "{{baseurl}}/v1/member/type/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-09-29T10:39:39.769Z",
+    "modified": "2022-09-29T10:40:03.054Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3803d79b-6c03-4e75-8425-64faab575c97",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "name": "create member type",
+    "url": "{{baseurl}}/v1/member/type",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-09-29T10:40:08.019Z",
+    "modified": "2022-09-29T10:41:07.108Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6e8bf257-9e24-4624-a2da-6db8e3f3b4d2",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "name": "update member type",
+    "url": "{{baseurl}}/v1/member/type/3",
+    "method": "PATCH",
+    "sortNum": 40000,
+    "created": "2022-09-29T10:41:44.587Z",
+    "modified": "2022-09-29T10:42:06.350Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"200000\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
