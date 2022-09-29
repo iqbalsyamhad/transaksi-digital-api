@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-09-29T08:03:09.364Z",
+    "modified": "2022-09-29T11:52:36.425Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.co\",\n  \"password\": \"1234567\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -156,6 +156,75 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"200000\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "90f35f14-bee3-4e91-bbb5-51d43f992dbe",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "update account",
+    "url": "{{baseurl}}/v1/user",
+    "method": "PATCH",
+    "sortNum": 10000,
+    "created": "2022-09-29T11:34:16.922Z",
+    "modified": "2022-09-29T11:55:34.927Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "nik",
+          "value": "0000000000000000"
+        },
+        {
+          "name": "name",
+          "value": "Iqbal"
+        },
+        {
+          "name": "birthdate",
+          "value": "2022-09-01"
+        },
+        {
+          "name": "city",
+          "value": "banjar"
+        },
+        {
+          "name": "province",
+          "value": "jateng"
+        },
+        {
+          "name": "address",
+          "value": "jateng"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 19.39.43.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b295298b-1e53-4187-a0db-934bcde1bafa",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "change password",
+    "url": "{{baseurl}}/v1/user/password",
+    "method": "PATCH",
+    "sortNum": 20000,
+    "created": "2022-09-29T11:55:54.298Z",
+    "modified": "2022-09-29T11:56:54.362Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"oldpassword\": \"12345678\",\n  \"newpassword\": \"1\"\n}",
       "form": []
     },
     "tests": []
