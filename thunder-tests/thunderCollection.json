@@ -41,5 +41,20 @@
     "created": "2022-09-30T02:02:22.270Z",
     "sortNum": 30000,
     "folders": []
+  },
+  {
+    "_id": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "colName": "product",
+    "created": "2022-09-30T07:05:19.318Z",
+    "sortNum": 40000,
+    "folders": [
+      {
+        "_id": "2a470a31-3304-4b12-a220-5648cea12201",
+        "name": "product manage",
+        "containerId": "",
+        "created": "2022-09-30T07:05:31.755Z",
+        "sortNum": 10000
+      }
+    ]
   }
 ]
