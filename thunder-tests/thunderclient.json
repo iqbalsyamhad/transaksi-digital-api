@@ -397,9 +397,53 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-30T07:06:01.593Z",
-    "modified": "2022-09-30T07:09:53.930Z",
+    "modified": "2022-09-30T17:19:02.184Z",
     "headers": [],
     "params": [],
-    "tests": []
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "storeId",
+          "value": "1"
+        },
+        {
+          "name": "name",
+          "value": "Product 2"
+        },
+        {
+          "name": "price",
+          "value": "10000",
+          "isDisabled": true
+        },
+        {
+          "name": "stock",
+          "value": "",
+          "isDisabled": true
+        },
+        {
+          "name": "weight",
+          "value": "0",
+          "isDisabled": true
+        },
+        {
+          "name": "description",
+          "value": "jjhjh"
+        },
+        {
+          "name": "sku",
+          "value": "[ { \"price\": 501, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"L\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Merah\" } } ] }, { \"price\": 502, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"XL\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Kuning\" } } ] } ]"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Documents/2048px-Instagram_icon.png"
+        }
+      ]
+    },
+    "tests": [],
+    "docs": "contoh payload sku:\n[\n  {\n  \"price\": 501,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"L\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Merah\"\n      }\n    }\n  ]\n},\n{\n  \"price\": 502,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"XL\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Kuning\"\n      }\n    }\n  ]\n}\n]"
   }
 ]
