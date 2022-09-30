@@ -18,6 +18,13 @@
         "containerId": "",
         "created": "2022-09-29T08:21:18.769Z",
         "sortNum": 10000
+      },
+      {
+        "_id": "6eab1916-f5e7-4910-95cd-7bf79d7a25d6",
+        "name": "member store",
+        "containerId": "",
+        "created": "2022-09-30T02:52:31.580Z",
+        "sortNum": 20000
       }
     ]
   },
@@ -26,6 +33,13 @@
     "colName": "account",
     "created": "2022-09-29T11:34:03.280Z",
     "sortNum": 5000,
+    "folders": []
+  },
+  {
+    "_id": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
+    "colName": "store",
+    "created": "2022-09-30T02:02:22.270Z",
+    "sortNum": 30000,
     "folders": []
   }
 ]

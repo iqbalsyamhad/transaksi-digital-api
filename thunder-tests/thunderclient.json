@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-09-29T11:52:36.425Z",
+    "modified": "2022-09-30T02:41:55.163Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1\"\n}",
       "form": []
     },
     "tests": []
@@ -227,6 +227,165 @@
       "raw": "{\n  \"oldpassword\": \"12345678\",\n  \"newpassword\": \"1\"\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "f75910f5-82e6-4b8b-82c8-529538ec4ce2",
+    "colId": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
+    "containerId": "",
+    "name": "create store",
+    "url": "{{baseurl}}/v1/store",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-09-30T02:02:40.698Z",
+    "modified": "2022-09-30T02:42:36.360Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Store A"
+        },
+        {
+          "name": "address",
+          "value": "n"
+        },
+        {
+          "name": "province",
+          "value": "n"
+        },
+        {
+          "name": "city",
+          "value": "n"
+        },
+        {
+          "name": "subDistrict",
+          "value": "n"
+        },
+        {
+          "name": "postalCode",
+          "value": "n"
+        },
+        {
+          "name": "latitude",
+          "value": "90"
+        },
+        {
+          "name": "longitude",
+          "value": "-90"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 09.29.10.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "43745293-72a1-4313-bbea-c63d07cc3dcb",
+    "colId": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
+    "containerId": "",
+    "name": "update store",
+    "url": "{{baseurl}}/v1/store/1",
+    "method": "PATCH",
+    "sortNum": 20000,
+    "created": "2022-09-30T02:44:53.726Z",
+    "modified": "2022-09-30T02:45:21.140Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Store B"
+        },
+        {
+          "name": "address",
+          "value": "n"
+        },
+        {
+          "name": "province",
+          "value": "n"
+        },
+        {
+          "name": "city",
+          "value": "n"
+        },
+        {
+          "name": "subDistrict",
+          "value": "n"
+        },
+        {
+          "name": "postalCode",
+          "value": "n"
+        },
+        {
+          "name": "latitude",
+          "value": "90"
+        },
+        {
+          "name": "longitude",
+          "value": "-90"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 09.29.10.png",
+          "isDisabled": true
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4946f992-55af-4905-abe4-dd62759710f3",
+    "colId": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
+    "containerId": "",
+    "name": "get all store",
+    "url": "{{baseurl}}/v1/store",
+    "method": "GET",
+    "sortNum": 5000,
+    "created": "2022-09-30T02:45:57.602Z",
+    "modified": "2022-09-30T02:46:33.422Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "dd90f81f-f193-4d88-9584-2e6280558875",
+    "colId": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
+    "containerId": "",
+    "name": "get one store Copy",
+    "url": "{{baseurl}}/v1/store/1",
+    "method": "GET",
+    "sortNum": 7500,
+    "created": "2022-09-30T02:46:24.442Z",
+    "modified": "2022-09-30T02:46:24.442Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ec4a5b41-4680-461a-acb8-f50312964062",
+    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
+    "containerId": "6eab1916-f5e7-4910-95cd-7bf79d7a25d6",
+    "name": "get member store",
+    "url": "{{baseurl}}/v1/member/store",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-09-30T03:22:38.060Z",
+    "modified": "2022-09-30T03:22:52.194Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
