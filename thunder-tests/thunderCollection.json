@@ -40,7 +40,29 @@
     "colName": "store",
     "created": "2022-09-30T02:02:22.270Z",
     "sortNum": 30000,
-    "folders": []
+    "folders": [
+      {
+        "_id": "9bdc9421-ff85-4a00-8a6b-e896209e89bd",
+        "name": "store manage",
+        "containerId": "",
+        "created": "2022-10-01T07:16:30.371Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "76f0aa41-b438-4e5f-986e-3336e40bfcca",
+        "name": "store view",
+        "containerId": "",
+        "created": "2022-10-01T07:16:49.359Z",
+        "sortNum": 5000
+      },
+      {
+        "_id": "e50232c4-969c-4ce0-99bf-d17ca9dbadb3",
+        "name": "store product",
+        "containerId": "",
+        "created": "2022-10-01T07:17:04.186Z",
+        "sortNum": 30000
+      }
+    ]
   },
   {
     "_id": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
@@ -54,6 +76,13 @@
         "containerId": "",
         "created": "2022-09-30T07:05:31.755Z",
         "sortNum": 10000
+      },
+      {
+        "_id": "d38c3427-a00d-48e3-8f24-37effe8e5221",
+        "name": "product view",
+        "containerId": "",
+        "created": "2022-10-01T06:57:40.599Z",
+        "sortNum": 5000
       }
     ]
   }
