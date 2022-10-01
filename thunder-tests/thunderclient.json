@@ -546,13 +546,34 @@
     "colId": "0eec1d14-5ecc-47b3-92bd-985a3760bc7b",
     "containerId": "e50232c4-969c-4ce0-99bf-d17ca9dbadb3",
     "name": "get store product",
-    "url": "{{baseurl}}/v1/store/2/product",
+    "url": "{{baseurl}}/v1/store/1/product?order=price:asc&page=1&limit=2&name=Product 2",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-10-01T07:16:17.611Z",
-    "modified": "2022-10-01T07:18:49.676Z",
+    "modified": "2022-10-01T07:39:07.674Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "order",
+        "value": "price:asc",
+        "isPath": false
+      },
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "2",
+        "isPath": false
+      },
+      {
+        "name": "name",
+        "value": "Product 2",
+        "isPath": false
+      }
+    ],
     "tests": []
   }
 ]
