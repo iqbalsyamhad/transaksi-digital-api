@@ -445,5 +445,57 @@
     },
     "tests": [],
     "docs": "contoh payload sku:\n[\n  {\n  \"price\": 501,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"L\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Merah\"\n      }\n    }\n  ]\n},\n{\n  \"price\": 502,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"XL\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Kuning\"\n      }\n    }\n  ]\n}\n]"
+  },
+  {
+    "_id": "742e969d-aa22-418a-8477-d2088d2cedea",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "2a470a31-3304-4b12-a220-5648cea12201",
+    "name": "update product",
+    "url": "{{baseurl}}/v1/product/2",
+    "method": "PATCH",
+    "sortNum": 20000,
+    "created": "2022-10-01T02:38:01.741Z",
+    "modified": "2022-10-01T05:28:09.329Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "Product 2"
+        },
+        {
+          "name": "price",
+          "value": "10"
+        },
+        {
+          "name": "stock",
+          "value": "1"
+        },
+        {
+          "name": "weight",
+          "value": "0"
+        },
+        {
+          "name": "description",
+          "value": "jjhjh"
+        },
+        {
+          "name": "sku",
+          "value": "[{ \"id\": 12, \"price\": 5011, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"L\" } } ] } ]",
+          "isDisabled": true
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Documents/2048px-Instagram_icon.png"
+        }
+      ]
+    },
+    "tests": [],
+    "docs": "contoh payload sku:\n[\n  {\n  \"id\": 12,\n  \"price\": 501,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"L\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Merah\"\n      }\n    }\n  ]\n},\n{\n  \"id\": 13,\n  \"price\": 502,\n  \"weight\": 1000,\n  \"variant\": [\n    {\n      \"name\": \"Ukuran\",\n      \"variantOption\": {\n        \"name\": \"XL\"\n      }\n    },\n    {\n      \"name\": \"Warna\",\n      \"variantOption\": {\n        \"name\": \"Kuning\"\n      }\n    }\n  ]\n}\n]"
   }
 ]
