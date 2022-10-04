@@ -16,13 +16,14 @@ declare namespace Express {
         latitude?: number;
         longitude?: number;
         geometry?: any;
-        role: number;
+        membertype?: string | null;
         status: 'pending' | 'active' | 'suspend' | 'inactive';
         loginattemp?: any;
     }
 
     interface Request {
         user?: User;
+        userpos?: any;
         polyglot?: any;
     }
 }

@@ -27,12 +27,12 @@
     "method": "PUT",
     "sortNum": 20000,
     "created": "2022-09-28T16:12:25.344Z",
-    "modified": "2022-09-28T17:07:01.154Z",
+    "modified": "2022-10-04T04:13:52.935Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"865693\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"177962\"\n}",
       "form": []
     },
     "tests": []
@@ -46,12 +46,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-28T16:12:53.626Z",
-    "modified": "2022-09-28T17:09:57.140Z",
+    "modified": "2022-10-04T04:14:24.162Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"roleId\": 1,\n  \"otp\": \"0\"\n}",
+      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"umkm\",\n  \"otp\": \"177962\"\n}",
       "form": []
     },
     "tests": []
@@ -640,6 +640,20 @@
       "raw": "{\n  \"name\": \"req.body.name\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "2ae3f49e-5be1-4548-a47f-da8707f59cb6",
+    "colId": "465da08e-88b6-4ccd-bc1e-767d1689304a",
+    "containerId": "",
+    "name": "POS create product order",
+    "url": "{{baseurl}}/v1/pos/productorder",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-10-04T03:11:07.718Z",
+    "modified": "2022-10-04T03:11:35.442Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
