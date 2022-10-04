@@ -105,33 +105,33 @@
   },
   {
     "_id": "3803d79b-6c03-4e75-8425-64faab575c97",
-    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
-    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
     "name": "create member type (backoffice)",
     "url": "{{baseurl}}/v1/member/type",
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-29T10:40:08.019Z",
-    "modified": "2022-09-29T10:41:07.108Z",
+    "modified": "2022-10-04T02:26:31.298Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
+      "raw": "{\n  \"identifier\": \"produsen\",\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
       "form": []
     },
     "tests": []
   },
   {
     "_id": "6e8bf257-9e24-4624-a2da-6db8e3f3b4d2",
-    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
-    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
     "name": "update member type (backoffice)",
     "url": "{{baseurl}}/v1/member/type/3",
     "method": "PATCH",
     "sortNum": 40000,
     "created": "2022-09-29T10:41:44.587Z",
-    "modified": "2022-09-29T10:42:06.350Z",
+    "modified": "2022-10-04T02:25:43.861Z",
     "headers": [],
     "params": [],
     "body": {
@@ -143,14 +143,14 @@
   },
   {
     "_id": "49b52942-985b-4fe2-b539-090aafcb9783",
-    "colId": "3b027694-d785-4d07-9fc3-099d4d94c65e",
-    "containerId": "580d967c-f2bd-48f4-9631-0a1997c42a7c",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
     "name": "delete member type (backoffice)",
     "url": "{{baseurl}}/v1/member/type/3",
     "method": "DELETE",
     "sortNum": 50000,
     "created": "2022-09-29T10:44:25.972Z",
-    "modified": "2022-09-29T10:44:38.296Z",
+    "modified": "2022-10-04T02:25:46.217Z",
     "headers": [],
     "params": [],
     "body": {
@@ -574,6 +574,72 @@
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "8b07c2e5-7a23-4fba-97e4-a37f53acf713",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
+    "name": "get all member type",
+    "url": "{{baseurl}}/v1/member/type",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-10-04T02:25:07.107Z",
+    "modified": "2022-10-04T02:25:10.348Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "80d78080-7e55-4cfc-b1de-b043680d162a",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
+    "name": "get member type by id",
+    "url": "{{baseurl}}/v1/member/type/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-10-04T02:25:25.691Z",
+    "modified": "2022-10-04T02:25:35.747Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3598db9b-2a77-40d4-ade2-433c2635d7d4",
+    "colId": "465da08e-88b6-4ccd-bc1e-767d1689304a",
+    "containerId": "",
+    "name": "POS login",
+    "url": "{{baseurl}}/v1/pos/auth/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-04T02:27:26.012Z",
+    "modified": "2022-10-04T02:33:06.817Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "1fa13390-fdca-4bc3-818f-db0e71b10e77",
+    "colId": "465da08e-88b6-4ccd-bc1e-767d1689304a",
+    "containerId": "",
+    "name": "POS create account",
+    "url": "{{baseurl}}/v1/pos/auth/register",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-10-04T02:28:54.290Z",
+    "modified": "2022-10-04T02:32:50.402Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"req.body.name\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"12345678\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
