@@ -19,6 +19,10 @@ declare namespace Express {
         membertype?: string | null;
         status: 'pending' | 'active' | 'suspend' | 'inactive';
         loginattemp?: any;
+        tokenWallet?: {
+            userId: number;
+            token: number;
+        }
     }
 
     interface Request {

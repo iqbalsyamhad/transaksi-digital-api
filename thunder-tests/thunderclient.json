@@ -27,12 +27,12 @@
     "method": "PUT",
     "sortNum": 20000,
     "created": "2022-09-28T16:12:25.344Z",
-    "modified": "2022-10-04T04:13:52.935Z",
+    "modified": "2022-10-05T15:26:28.382Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"177962\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"503664\"\n}",
       "form": []
     },
     "tests": []
@@ -46,12 +46,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-28T16:12:53.626Z",
-    "modified": "2022-10-04T04:14:24.162Z",
+    "modified": "2022-10-05T15:27:13.339Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"umkm\",\n  \"otp\": \"177962\"\n}",
+      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"produsen\",\n  \"otp\": \"503664\"\n}",
       "form": []
     },
     "tests": []
@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-09-30T02:41:55.163Z",
+    "modified": "2022-10-05T15:27:28.185Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -112,12 +112,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-29T10:40:08.019Z",
-    "modified": "2022-10-04T02:26:31.298Z",
+    "modified": "2022-10-05T15:27:02.091Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"identifier\": \"produsen\",\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
+      "raw": "{\n  \"id\": \"produsen\",\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
       "form": []
     },
     "tests": []
@@ -651,9 +651,33 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-04T03:11:07.718Z",
-    "modified": "2022-10-04T03:11:35.442Z",
+    "modified": "2022-10-05T15:37:59.115Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": {\n        \"skuId\": 1,\n        \"qty\": 1,\n        \"price\": 1,\n        \"weight\": 0,\n        \"total\": 1\n      },\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 1\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 0,\n  \"total\": 1\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3b84c9aa-9d61-4455-bc2d-d26caabfb081",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "31ced9fa-4ac5-405a-89ab-76ba301e4ec1",
+    "name": "create product order",
+    "url": "{{baseurl}}/v1/product/order",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-05T15:38:15.894Z",
+    "modified": "2022-10-05T23:35:27.189Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"total\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 501,\n  \"total\": 501\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
