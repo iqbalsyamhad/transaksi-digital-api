@@ -679,5 +679,87 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "a688b681-88fe-43d9-aaf7-ef32796117d1",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
+    "name": "create nft",
+    "url": "",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-10-06T16:45:15.150Z",
+    "modified": "2022-10-06T16:45:20.449Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c9498b3a-c859-4079-9081-0ba38769f0fb",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "724b08af-17e7-415d-8638-1c4bcacbad47",
+    "name": "update kecamatan",
+    "url": "{{baseurl}}/v1/region/updatekecamatan",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-10-07T07:27:35.669Z",
+    "modified": "2022-10-07T07:28:37.802Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "07fc09a3-e461-4e01-8036-ae5b07f87493",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "724b08af-17e7-415d-8638-1c4bcacbad47",
+    "name": "get provinsi",
+    "url": "{{baseurl}}/v1/region/province",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-10-07T08:13:45.493Z",
+    "modified": "2022-10-07T08:15:03.668Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "70ff05fb-8f9b-4e2f-bfe3-46956584356d",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "724b08af-17e7-415d-8638-1c4bcacbad47",
+    "name": "get kota/kabupaten",
+    "url": "{{baseurl}}/v1/region/city?province=1",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-10-07T08:15:12.021Z",
+    "modified": "2022-10-07T08:15:38.714Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "province",
+        "value": "1",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "95a1af6c-9604-4728-87cc-0c76cc3dfdf8",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "724b08af-17e7-415d-8638-1c4bcacbad47",
+    "name": "get kecamatan",
+    "url": "{{baseurl}}/v1/region/subdistrict?city=100",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-10-07T08:15:55.142Z",
+    "modified": "2022-10-07T08:16:31.926Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "city",
+        "value": "100",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]

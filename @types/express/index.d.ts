@@ -10,8 +10,21 @@ declare namespace Express {
         birthdate: Date;
         password: string;
         pin?: string;
-        city: string;
-        province: string;
+        cityId: number;
+        city?: {
+            id: number,
+            name: string,
+        },
+        provinceId: number;
+        province?: {
+            id: number,
+            name: string,
+        },
+        subdistrictId: number;
+        subdistrict?: {
+            id: number,
+            name: string,
+        },
         address: string;
         latitude?: number;
         longitude?: number;
