@@ -689,9 +689,52 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2022-10-06T16:45:15.150Z",
-    "modified": "2022-10-06T16:45:20.449Z",
+    "modified": "2022-10-07T16:07:28.591Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "NFT 1"
+        },
+        {
+          "name": "price",
+          "value": ""
+        },
+        {
+          "name": "sharePercentage",
+          "value": ""
+        },
+        {
+          "name": "monthlyPercentage",
+          "value": ""
+        },
+        {
+          "name": "physicAvailable",
+          "value": ""
+        },
+        {
+          "name": "buybackHoldLimit",
+          "value": ""
+        },
+        {
+          "name": "expirationDate",
+          "value": ""
+        },
+        {
+          "name": "unit",
+          "value": ""
+        },
+        {
+          "name": "storeId",
+          "value": ""
+        }
+      ],
+      "files": []
+    },
     "tests": []
   },
   {
@@ -760,6 +803,62 @@
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "c5518c41-0389-4adc-bf09-25a10337e70e",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
+    "name": "update nft",
+    "url": "",
+    "method": "PATCH",
+    "sortNum": 70000,
+    "created": "2022-10-07T17:53:59.740Z",
+    "modified": "2022-10-07T17:54:24.330Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "NFT 1"
+        },
+        {
+          "name": "price",
+          "value": ""
+        },
+        {
+          "name": "sharePercentage",
+          "value": ""
+        },
+        {
+          "name": "monthlyPercentage",
+          "value": ""
+        },
+        {
+          "name": "physicAvailable",
+          "value": ""
+        },
+        {
+          "name": "buybackHoldLimit",
+          "value": ""
+        },
+        {
+          "name": "expirationDate",
+          "value": ""
+        },
+        {
+          "name": "unit",
+          "value": ""
+        },
+        {
+          "name": "storeId",
+          "value": ""
+        }
+      ]
+    },
     "tests": []
   }
 ]
