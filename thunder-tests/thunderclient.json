@@ -890,5 +890,71 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "720fca66-e9c0-4e55-87de-2ed6a16faaca",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get nft",
+    "url": "{{baseurl}}/v1/nft",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-10-09T05:47:30.083Z",
+    "modified": "2022-10-09T05:47:33.362Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "543fa532-5de8-4976-a951-ff27ad9da63a",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "buy nft",
+    "url": "{{baseurl}}/v1/nft/transaction/buy",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-10-09T05:47:41.064Z",
+    "modified": "2022-10-09T05:48:59.954Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nftSeriealId\": \"123\",\n  \"priceCoin\": 0\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d9c666be-1d5a-4de3-a465-b4a4c3679660",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "sell (buyback) nft",
+    "url": "{{baseurl}}/v1/nft/transaction/sell",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-10-09T05:49:56.261Z",
+    "modified": "2022-10-09T05:51:10.596Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nftSeriealId\": \"123\",\n  \"priceCoin\": 0,\n  \"buybackFee\": 0\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9548f500-47c2-4e45-90f2-7cf5539f04b5",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get MY nft",
+    "url": "{{baseurl}}/v1/nft/my",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-10-09T06:22:31.844Z",
+    "modified": "2022-10-09T06:22:45.175Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

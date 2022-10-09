@@ -95,7 +95,7 @@
   },
   {
     "_id": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
-    "colName": "BACKEND",
+    "colName": "BACKOFFICE",
     "created": "2022-10-04T02:24:44.523Z",
     "sortNum": 50000,
     "folders": [

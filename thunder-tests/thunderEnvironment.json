@@ -12,5 +12,19 @@
         "value": "http://localhost:8080"
       }
     ]
+  },
+  {
+    "_id": "b6665386-8327-44b7-9cec-5310d7412350",
+    "name": "stg",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-10-09T05:09:12.386Z",
+    "modified": "2022-10-09T05:09:55.843Z",
+    "data": [
+      {
+        "name": "baseurl",
+        "value": "https://api-kmp.superteam.web.id"
+      }
+    ]
   }
 ]
