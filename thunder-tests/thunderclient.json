@@ -685,11 +685,11 @@
     "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
     "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
     "name": "create nft",
-    "url": "",
+    "url": "{{baseurl}}/v1/nft",
     "method": "POST",
     "sortNum": 60000,
     "created": "2022-10-06T16:45:15.150Z",
-    "modified": "2022-10-07T16:07:28.591Z",
+    "modified": "2022-10-08T13:38:32.804Z",
     "headers": [],
     "params": [],
     "body": {
@@ -702,38 +702,46 @@
         },
         {
           "name": "price",
-          "value": ""
+          "value": "1000"
         },
         {
           "name": "sharePercentage",
-          "value": ""
+          "value": "10",
+          "isDisabled": true
         },
         {
           "name": "monthlyPercentage",
-          "value": ""
+          "value": "10"
         },
         {
           "name": "physicAvailable",
-          "value": ""
+          "value": "false"
         },
         {
           "name": "buybackHoldLimit",
-          "value": ""
+          "value": "10"
         },
         {
           "name": "expirationDate",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
-          "name": "unit",
-          "value": ""
+          "name": "units",
+          "value": "[{\"unitPrice\":1000,\"unitMonthlyPercentage\": 10}]"
         },
         {
           "name": "storeId",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         }
       ],
-      "files": []
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Documents/dream-farm.png"
+        }
+      ]
     },
     "tests": []
   },
@@ -810,11 +818,11 @@
     "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
     "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
     "name": "update nft",
-    "url": "",
+    "url": "{{baseurl}}/v1/nft/42dd9f9d-3756-4cfa-9edd-b129cf7cc07b",
     "method": "PATCH",
     "sortNum": 70000,
     "created": "2022-10-07T17:53:59.740Z",
-    "modified": "2022-10-07T17:54:24.330Z",
+    "modified": "2022-10-08T14:53:34.921Z",
     "headers": [],
     "params": [],
     "body": {
@@ -823,42 +831,64 @@
       "form": [
         {
           "name": "name",
-          "value": "NFT 1"
+          "value": "NFT 2"
         },
         {
           "name": "price",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "sharePercentage",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "monthlyPercentage",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "physicAvailable",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "buybackHoldLimit",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "expirationDate",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "unit",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         },
         {
           "name": "storeId",
-          "value": ""
+          "value": "",
+          "isDisabled": true
         }
       ]
     },
+    "tests": []
+  },
+  {
+    "_id": "5853620c-f448-4393-a32d-4511b64470f5",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
+    "name": "get nft",
+    "url": "{{baseurl}}/v1/nft",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-10-09T03:11:35.160Z",
+    "modified": "2022-10-09T03:12:04.451Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
