@@ -956,5 +956,20 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "9965ad7f-6c81-45b5-83ee-f310bce2510f",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "EKYC KTP OCR",
+    "url": "{{baseurl}}/v1/auth/ktpocr",
+    "method": "POST",
+    "sortNum": 25000,
+    "created": "2022-10-10T14:39:16.906Z",
+    "modified": "2022-10-10T15:08:51.714Z",
+    "headers": [],
+    "params": [],
+    "tests": [],
+    "docs": "example response:\n{\n  \"data\": {\n    \"status\": \"OK\",\n    \"message\": {\n      \"name\": \"Gol  Darah B LAKI   LAKI\",\n      \"id\": \"xxxxxxxxxxxxxxxx\",\n      \"pob\": \"BANJARNEGARA\",\n      \"dob\": \"01-01-1995\",\n      \"gender\": \"LAKI-LAKI\",\n      \"address\": \"BANJAR\",\n      \"rt\": \"006\",\n      \"rw\": \"002\",\n      \"village\": \"BANJAR\",\n      \"district\": \"BANJAR\",\n      \"religion\": \"ISLAM\",\n      \"marital_status\": \"KAWIN\",\n      \"work\": \"KARYAWAN SWASTA\",\n      \"nationnality\": \"WNI\",\n      \"city\": \"KABUPATEN BANJARNEGARA\",\n      \"province\": \"JAWA TENGAH\"\n    }\n  }\n}"
   }
 ]
