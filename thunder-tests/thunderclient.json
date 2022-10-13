@@ -46,12 +46,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-28T16:12:53.626Z",
-    "modified": "2022-10-05T15:27:13.339Z",
+    "modified": "2022-10-11T14:46:35.325Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"city\": \"req.body.city\",\n  \"province\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"produsen\",\n  \"otp\": \"503664\"\n}",
+      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"cityId\": \"req.body.city\",\n  \"provinceId\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"produsen\",\n  \"otp\": \"503664\"\n}",
       "form": []
     },
     "tests": []
@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-05T15:27:28.185Z",
+    "modified": "2022-10-11T14:47:27.911Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
       "form": []
     },
     "tests": []
@@ -690,7 +690,7 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2022-10-06T16:45:15.150Z",
-    "modified": "2022-10-08T13:38:32.804Z",
+    "modified": "2022-10-11T14:55:20.388Z",
     "headers": [],
     "params": [],
     "body": {
@@ -707,12 +707,12 @@
         },
         {
           "name": "sharePercentage",
-          "value": "10",
-          "isDisabled": true
+          "value": "10"
         },
         {
           "name": "monthlyPercentage",
-          "value": "10"
+          "value": "10",
+          "isDisabled": true
         },
         {
           "name": "physicAvailable",
@@ -724,7 +724,7 @@
         },
         {
           "name": "expirationDate",
-          "value": "",
+          "value": "2022-09-01",
           "isDisabled": true
         },
         {
@@ -733,8 +733,7 @@
         },
         {
           "name": "storeId",
-          "value": "",
-          "isDisabled": true
+          "value": ""
         }
       ],
       "files": [
@@ -956,6 +955,130 @@
     "modified": "2022-10-09T06:22:45.175Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9965ad7f-6c81-45b5-83ee-f310bce2510f",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "EKYC KTP OCR",
+    "url": "{{baseurl}}/v1/auth/ktpocr",
+    "method": "POST",
+    "sortNum": 25000,
+    "created": "2022-10-10T14:39:16.906Z",
+    "modified": "2022-10-10T15:08:51.714Z",
+    "headers": [],
+    "params": [],
+    "tests": [],
+    "docs": "example response:\n{\n  \"data\": {\n    \"status\": \"OK\",\n    \"message\": {\n      \"name\": \"Gol  Darah B LAKI   LAKI\",\n      \"id\": \"xxxxxxxxxxxxxxxx\",\n      \"pob\": \"BANJARNEGARA\",\n      \"dob\": \"01-01-1995\",\n      \"gender\": \"LAKI-LAKI\",\n      \"address\": \"BANJAR\",\n      \"rt\": \"006\",\n      \"rw\": \"002\",\n      \"village\": \"BANJAR\",\n      \"district\": \"BANJAR\",\n      \"religion\": \"ISLAM\",\n      \"marital_status\": \"KAWIN\",\n      \"work\": \"KARYAWAN SWASTA\",\n      \"nationnality\": \"WNI\",\n      \"city\": \"KABUPATEN BANJARNEGARA\",\n      \"province\": \"JAWA TENGAH\"\n    }\n  }\n}"
+  },
+  {
+    "_id": "2cd11dd6-feeb-40a3-a75a-8b4345908a42",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "get operator no hp",
+    "url": "{{baseurl}}/v1/ppob/prepaid/phoneprefix",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-10T15:38:27.431Z",
+    "modified": "2022-10-10T16:09:30.682Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"082136106764\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3728a65d-a644-47e8-acf9-8025c8285e88",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "get product",
+    "url": "{{baseurl}}/v1/ppob/prepaid/product/pln",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-10-10T15:56:38.063Z",
+    "modified": "2022-10-11T15:04:22.864Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cb81b231-0498-4286-9aaf-0bc0850f7741",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "inq PLN",
+    "url": "{{baseurl}}/v1/ppob/prepaid/inq-pln",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-10-10T16:08:30.410Z",
+    "modified": "2022-10-10T16:13:36.430Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customer_id\": \"12345678901\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2c21ea5c-dc34-4d91-a611-fc7152ca5a11",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "inq Game format HP",
+    "url": "{{baseurl}}/v1/ppob/prepaid/inq-game-phone",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-10-10T16:35:25.817Z",
+    "modified": "2022-10-10T16:36:20.930Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"game_code\": \"103\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "bc15a285-2cf0-4d1c-9fb7-cc6f2613a6a8",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "inq Game server",
+    "url": "{{baseurl}}/v1/ppob/prepaid/inq-game-server",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-10-10T16:35:28.197Z",
+    "modified": "2022-10-10T16:37:03.014Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"game_code\": \"142\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d42fa10b-a8a4-4217-949a-9246a3f1d60f",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
+    "name": "Checkout",
+    "url": "{{baseurl}}/v1/ppob/prepaid/checkout",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-10-10T16:46:30.184Z",
+    "modified": "2022-10-10T16:46:53.150Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customer_id\": \"142\",\n  \"product_code\": \"\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
