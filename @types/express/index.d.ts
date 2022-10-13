@@ -30,6 +30,7 @@ declare namespace Express {
         longitude?: number;
         geometry?: any;
         membertype?: string | null;
+        role?: 'operation' | 'superadmin';
         status: 'pending' | 'active' | 'suspend' | 'inactive';
         loginattemp?: any;
         tokenWallet?: {
