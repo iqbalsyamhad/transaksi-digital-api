@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-11T14:47:27.911Z",
+    "modified": "2022-10-13T17:04:30.631Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -995,11 +995,11 @@
     "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
     "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
     "name": "get product",
-    "url": "{{baseurl}}/v1/ppob/prepaid/product/pln",
+    "url": "{{baseurl}}/v1/ppob/prepaid/product/",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-10T15:56:38.063Z",
-    "modified": "2022-10-11T15:04:22.864Z",
+    "modified": "2022-10-15T03:22:34.641Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -1070,12 +1070,17 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2022-10-10T16:46:30.184Z",
-    "modified": "2022-10-13T15:57:24.197Z",
-    "headers": [],
+    "modified": "2022-10-15T03:23:58.433Z",
+    "headers": [
+      {
+        "name": "pin",
+        "value": "123456"
+      }
+    ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"customer_id\": \"142\"\n}",
+      "raw": "{\n  \"customer_id\": \"0817777215\",\n  \"tipe\": \"pulsa\",\n  \"operator\": \"xl\",\n  \"product\": {\n      \"product_code\": \"xld25000\",\n      \"product_description\": \"XL\",\n      \"product_nominal\": \"25000\",\n      \"product_details\": \"-\",\n      \"product_price\": 25000,\n      \"product_type\": \"pulsa\",\n      \"active_period\": \"35\",\n      \"status\": \"active\",\n      \"icon_url\": \"https://cdn.mobilepulsa.net/img/logo/pulsa/small/xl.png\"\n    }\n}",
       "form": []
     },
     "tests": []
@@ -1106,6 +1111,49 @@
     "modified": "2022-10-13T16:56:17.014Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7e24dcef-f5fb-48bb-bc9e-b2adec2cfbbf",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "inquiry postpaid account",
+    "url": "{{baseurl}}/v1/ppob/postpaid/inquiry",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2022-10-13T17:02:49.785Z",
+    "modified": "2022-10-15T03:05:24.733Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"code\": \"PDAMKOTA.SURABAYA\",\n  \"customer_id\": \"10202001\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b1a846eb-dda5-4535-836f-d63efd3bcf72",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "Checkout Postpaid",
+    "url": "{{baseurl}}/v1/ppob/postpaid/checkout",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-10-15T03:00:02.322Z",
+    "modified": "2022-10-15T03:08:22.063Z",
+    "headers": [
+      {
+        "name": "pin",
+        "value": "123456"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"code\": \"PDAMKOTA.SURABAYA\",\n  \"tipe\": \"pdam\",\n  \"customer_id\": \"10202001\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
