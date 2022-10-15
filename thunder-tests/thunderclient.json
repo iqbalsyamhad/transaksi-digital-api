@@ -65,7 +65,7 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-14T12:05:35.881Z",
+    "modified": "2022-10-13T17:04:30.631Z",
     "headers": [],
     "params": [],
     "body": {
@@ -112,12 +112,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-29T10:40:08.019Z",
-    "modified": "2022-10-11T03:07:40.564Z",
+    "modified": "2022-10-05T15:27:02.091Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"id\": \"Test\",\n  \"name\": \"Test\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
+      "raw": "{\n  \"id\": \"produsen\",\n  \"name\": \"Produsen\",\n  \"price\": \"100000\",\n  \"description\": \"test\"\n}",
       "form": []
     },
     "tests": []
@@ -127,16 +127,16 @@
     "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
     "containerId": "2669fde9-d53e-4ab5-8225-6a73adc97f8e",
     "name": "update member type (backoffice)",
-    "url": "{{baseurl}}/v1/member/type/7",
+    "url": "{{baseurl}}/v1/member/type/3",
     "method": "PATCH",
     "sortNum": 40000,
     "created": "2022-09-29T10:41:44.587Z",
-    "modified": "2022-10-11T03:10:42.938Z",
+    "modified": "2022-10-04T02:25:43.861Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"test12\",\n  \"description\": \"Ini member test\",\n  \"price\": \"500000\"\n}",
+      "raw": "{\n  \"name\": \"Produsen\",\n  \"price\": \"200000\"\n}",
       "form": []
     },
     "tests": []
@@ -169,7 +169,7 @@
     "method": "PATCH",
     "sortNum": 10000,
     "created": "2022-09-29T11:34:16.922Z",
-    "modified": "2022-10-09T07:18:13.294Z",
+    "modified": "2022-09-29T11:55:34.927Z",
     "headers": [],
     "params": [],
     "body": {
@@ -204,8 +204,7 @@
       "files": [
         {
           "name": "image",
-          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 19.39.43.png",
-          "isDisabled": true
+          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 19.39.43.png"
         }
       ]
     },
@@ -1006,11 +1005,11 @@
     "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
     "containerId": "bddea09f-83ed-47fd-be00-cf14396747bb",
     "name": "get product",
-    "url": "{{baseurl}}/v1/ppob/prepaid/product/pln",
+    "url": "{{baseurl}}/v1/ppob/prepaid/product/",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-10T15:56:38.063Z",
-    "modified": "2022-10-11T15:04:22.864Z",
+    "modified": "2022-10-15T03:22:34.641Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -1081,12 +1080,107 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2022-10-10T16:46:30.184Z",
-    "modified": "2022-10-10T16:46:53.150Z",
+    "modified": "2022-10-15T03:23:58.433Z",
+    "headers": [
+      {
+        "name": "pin",
+        "value": "123456"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customer_id\": \"0817777215\",\n  \"tipe\": \"pulsa\",\n  \"operator\": \"xl\",\n  \"product\": {\n      \"product_code\": \"xld25000\",\n      \"product_description\": \"XL\",\n      \"product_nominal\": \"25000\",\n      \"product_details\": \"-\",\n      \"product_price\": 25000,\n      \"product_type\": \"pulsa\",\n      \"active_period\": \"35\",\n      \"status\": \"active\",\n      \"icon_url\": \"https://cdn.mobilepulsa.net/img/logo/pulsa/small/xl.png\"\n    }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9e6be837-82f0-4946-ae4e-00b35218dae1",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "get postpaid type",
+    "url": "{{baseurl}}/v1/ppob/postpaid/type",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-10-13T15:58:00.299Z",
+    "modified": "2022-10-13T16:01:52.506Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "119aacb3-e571-4dc9-84ef-a1203bce449c",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "get postpaid product",
+    "url": "{{baseurl}}/v1/ppob/postpaid/product/pdam",
+    "method": "POST",
+    "sortNum": 80000,
+    "created": "2022-10-13T16:53:53.620Z",
+    "modified": "2022-10-13T16:56:17.014Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7e24dcef-f5fb-48bb-bc9e-b2adec2cfbbf",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "inquiry postpaid account",
+    "url": "{{baseurl}}/v1/ppob/postpaid/inquiry",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2022-10-13T17:02:49.785Z",
+    "modified": "2022-10-15T03:05:24.733Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"customer_id\": \"142\",\n  \"product_code\": \"\"\n}",
+      "raw": "{\n  \"code\": \"PDAMKOTA.SURABAYA\",\n  \"customer_id\": \"10202001\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b1a846eb-dda5-4535-836f-d63efd3bcf72",
+    "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
+    "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
+    "name": "Checkout Postpaid",
+    "url": "{{baseurl}}/v1/ppob/postpaid/checkout",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-10-15T03:00:02.322Z",
+    "modified": "2022-10-15T03:08:22.063Z",
+    "headers": [
+      {
+        "name": "pin",
+        "value": "123456"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"code\": \"PDAMKOTA.SURABAYA\",\n  \"tipe\": \"pdam\",\n  \"customer_id\": \"10202001\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "92b97ef9-8699-45fb-8d8b-09ec98dc64c8",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "select member type",
+    "url": "{{baseurl}}/v1/auth/selectmember",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-10-15T04:06:19.354Z",
+    "modified": "2022-10-15T04:14:24.176Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"membertypeId\": \"produsen\"\n}",
       "form": []
     },
     "tests": []

@@ -13,170 +13,170 @@ module.exports = {
      * }], {});
     */
     return queryInterface.bulkInsert(
-      'PpobTypes',
+      'PPOBTypes',
       [
         {
-          "id": "data",
+          "key": "data",
           "name": "Paket Data",
           "postpaid": false
         },
         {
-          "id": "etoll",
+          "key": "etoll",
           "name": "E-Tol",
           "postpaid": false
         },
         {
-          "id": "game",
+          "key": "game",
           "name": "Voucher Game",
           "postpaid": false
         },
         {
-          "id": "pln",
+          "key": "pln",
           "name": "PLN",
           "postpaid": false
         },
         {
-          "id": "bangladesh",
+          "key": "bangladesh",
           "name": "Bangladesh",
           "postpaid": false
         },
         {
-          "id": "china",
+          "key": "china",
           "name": "China",
           "postpaid": false
         },
         {
-          "id": "malaysia",
+          "key": "malaysia",
           "name": "Malaysia",
           "postpaid": false
         },
         {
-          "id": "philipines",
+          "key": "philipines",
           "name": "Philipines",
           "postpaid": false
         },
         {
-          "id": "pulsa",
+          "key": "pulsa",
           "name": "Pulsa",
           "postpaid": false
         },
         {
-          "id": "singapore",
+          "key": "singapore",
           "name": "Singapore",
           "postpaid": false
         },
         {
-          "id": "taiwan",
+          "key": "taiwan",
           "name": "Taiwan",
           "postpaid": false
         },
         {
-          "id": "thailand",
+          "key": "thailand",
           "name": "Thailand",
           "postpaid": false
         },
         {
-          "id": "vietnam",
+          "key": "vietnam",
           "name": "Vietnam",
           "postpaid": false
         },
         {
-          "id": "pdam",
+          "key": "pdam",
           "name": "PDAM",
           "postpaid": true
         },
         {
-          "id": "bpjs",
+          "key": "bpjs",
           "name": "BPJS",
           "postpaid": true
         },
         {
-          "id": "internet",
+          "key": "internet",
           "name": "Internet",
           "postpaid": true
         },
         {
-          "id": "pajak-kendaraan",
+          "key": "pajak-kendaraan",
           "name": "Pajak Kendaraan",
           "postpaid": true
         },
         {
-          "id": "finance",
+          "key": "finance",
           "name": "Finance",
           "postpaid": true
         },
         {
-          "id": "hp",
+          "key": "hp",
           "name": "HP",
           "postpaid": true
         },
         {
-          "id": "estate",
+          "key": "estate",
           "name": "Estate",
           "postpaid": true
         },
         {
-          "id": "emoney",
+          "key": "emoney",
           "name": "E-Money",
           "postpaid": true
         },
         {
-          "id": "kereta",
+          "key": "kereta",
           "name": "Kereta",
           "postpaid": true
         },
         {
-          "id": "tv",
+          "key": "tv",
           "name": "TV",
           "postpaid": true
         },
         {
-          "id": "airline",
+          "key": "airline",
           "name": "Airline",
           "postpaid": true
         },
         {
-          "id": "o2o",
+          "key": "o2o",
           "name": "O2O",
           "postpaid": true
         },
         {
-          "id": "pbb",
+          "key": "pbb",
           "name": "PBB",
           "postpaid": true
         },
         {
-          "id": "gas",
+          "key": "gas",
           "name": "Gas",
           "postpaid": true
         },
         {
-          "id": "pajak-daerah",
+          "key": "pajak-daerah",
           "name": "Pajak Daerah",
           "postpaid": true
         },
         {
-          "id": "pln",
+          "key": "pln",
           "name": "PLN Pascabayar",
           "postpaid": true
         },
         {
-          "id": "pasar",
+          "key": "pasar",
           "name": "Pasar",
           "postpaid": true
         },
         {
-          "id": "retribusi",
+          "key": "retribusi",
           "name": "Retribusi",
           "postpaid": true
         },
         {
-          "id": "pendidikan",
+          "key": "pendidikan",
           "name": "Pendidikan",
           "postpaid": true
         },
         {
-          "id": "asuransi",
+          "key": "asuransi",
           "name": "Asuransi",
           "postpaid": true
         }
