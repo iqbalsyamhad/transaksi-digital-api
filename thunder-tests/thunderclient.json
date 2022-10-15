@@ -70,7 +70,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"konsumen1@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -885,8 +885,18 @@
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-10-09T03:11:35.160Z",
-    "modified": "2022-10-09T03:12:04.451Z",
-    "headers": [],
+    "modified": "2022-10-14T13:05:34.160Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJrb25zdW1lbjFAZ21haWwuY29tIiwiZXhwIjoxNjY2MzU1MTA5MTE0LCJpYXQiOjE2NjU3NTAzMDl9.IkCVR4YvntUZSJWHNVEPoxZuJRimm8TCdMuKN9KrcPA",
+        "isDisabled": true
+      },
+      {
+        "name": "Cookie",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJrb25zdW1lbjFAZ21haWwuY29tIiwiZXhwIjoxNjY2MzU1MTA5MTE0LCJpYXQiOjE2NjU3NTAzMDl9.IkCVR4YvntUZSJWHNVEPoxZuJRimm8TCdMuKN9KrcPA"
+      }
+    ],
     "params": [],
     "tests": []
   },
