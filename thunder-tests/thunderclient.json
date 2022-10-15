@@ -1155,5 +1155,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "92b97ef9-8699-45fb-8d8b-09ec98dc64c8",
+    "colId": "a6629c8c-fff5-4c42-b49c-fb718e885d49",
+    "containerId": "",
+    "name": "select member type",
+    "url": "{{baseurl}}/v1/auth/selectmember",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-10-15T04:06:19.354Z",
+    "modified": "2022-10-15T04:14:24.176Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"membertypeId\": \"produsen\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
