@@ -1114,11 +1114,11 @@
     "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
     "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
     "name": "get postpaid product",
-    "url": "{{baseurl}}/v1/ppob/postpaid/product/pdam",
+    "url": "{{baseurl}}/v1/ppob/postpaid/product/pajak-kendaraan",
     "method": "POST",
     "sortNum": 80000,
     "created": "2022-10-13T16:53:53.620Z",
-    "modified": "2022-10-13T16:56:17.014Z",
+    "modified": "2022-10-16T14:24:36.549Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -1228,6 +1228,53 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"pricelist\": [\n    {\n      \"product_code\": \"alfamart10\",\n      \"margin\": 1,\n      \"maxprice\": 1\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "610e853d-3fcc-4ae9-b123-2977045c9e03",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "51b4f48f-f1a0-4773-9bcb-75454126a906",
+    "name": "get local pricelist",
+    "url": "{{baseurl}}/v1/ppob/postpaid/localproduct",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-10-16T15:05:32.352Z",
+    "modified": "2022-10-16T15:06:08.561Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ea6b6be8-16e9-4c53-9d23-f4c1e49557b3",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "51b4f48f-f1a0-4773-9bcb-75454126a906",
+    "name": "update local pricelist from vendor",
+    "url": "{{baseurl}}/v1/ppob/postpaid/updateproduct",
+    "method": "PUT",
+    "sortNum": 90000,
+    "created": "2022-10-16T15:05:32.353Z",
+    "modified": "2022-10-16T15:06:23.765Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7711ced5-7f2c-4450-a63c-10436e2b830f",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "51b4f48f-f1a0-4773-9bcb-75454126a906",
+    "name": "update margin & maxprice product",
+    "url": "{{baseurl}}/v1/ppob/postpaid/updateproduct",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-10-16T15:05:32.354Z",
+    "modified": "2022-10-16T15:07:47.335Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"pricelist\": [\n    {\n      \"code\": \"AETRA\",\n      \"margin\": 1\n    }\n  ]\n}",
       "form": []
     },
     "tests": []
