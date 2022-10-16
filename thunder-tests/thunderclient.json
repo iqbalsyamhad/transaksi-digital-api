@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-13T17:04:30.631Z",
+    "modified": "2022-10-16T09:58:40.487Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"konsumen1@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -1181,6 +1181,53 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"membertypeId\": \"produsen\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "48d11de3-9cdb-4e66-b81e-17267621af83",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "7d39db71-efaf-4bf6-84b9-fef65a5c6213",
+    "name": "get local pricelist",
+    "url": "{{baseurl}}/v1/ppob/prepaid/localproduct",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-10-16T09:53:29.373Z",
+    "modified": "2022-10-16T09:55:52.114Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7708c551-3e35-40af-ae9d-6c12131e0819",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "7d39db71-efaf-4bf6-84b9-fef65a5c6213",
+    "name": "update local pricelist from vendor",
+    "url": "{{baseurl}}/v1/ppob/prepaid/updateproduct",
+    "method": "PUT",
+    "sortNum": 90000,
+    "created": "2022-10-16T09:56:26.802Z",
+    "modified": "2022-10-16T09:57:06.714Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5fd30e02-b7d0-45c9-bf30-aafb00576ad3",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "7d39db71-efaf-4bf6-84b9-fef65a5c6213",
+    "name": "update margin & maxprice product",
+    "url": "{{baseurl}}/v1/ppob/prepaid/updateproduct",
+    "method": "POST",
+    "sortNum": 100000,
+    "created": "2022-10-16T09:58:03.772Z",
+    "modified": "2022-10-16T10:00:30.663Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"pricelist\": [\n    {\n      \"product_code\": \"alfamart10\",\n      \"margin\": 1,\n      \"maxprice\": 1\n    }\n  ]\n}",
       "form": []
     },
     "tests": []
