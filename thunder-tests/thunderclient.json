@@ -1298,5 +1298,24 @@
       ]
     },
     "tests": []
+  },
+  {
+    "_id": "34e5cc2b-ebb2-4ba9-984e-8da12909aa97",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "17edd900-a411-4b8e-bbf6-8759235a4a86",
+    "name": "Login Backoffice",
+    "url": "{{baseurl}}/v1/auth/backoffice/login",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-18T14:02:24.615Z",
+    "modified": "2022-10-18T14:03:21.385Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
