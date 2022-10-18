@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-28T16:10:26.698Z",
-    "modified": "2022-09-28T16:12:13.544Z",
+    "modified": "2022-10-17T14:37:55.219Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6287713232252\"\n}",
       "form": []
     },
     "tests": []
@@ -27,12 +27,12 @@
     "method": "PUT",
     "sortNum": 20000,
     "created": "2022-09-28T16:12:25.344Z",
-    "modified": "2022-10-05T15:26:28.382Z",
+    "modified": "2022-10-17T14:38:07.598Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"otp\": \"503664\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6287713232252\",\n  \"otp\": \"000000\"\n}",
       "form": []
     },
     "tests": []
@@ -46,12 +46,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-09-28T16:12:53.626Z",
-    "modified": "2022-10-11T14:46:35.325Z",
+    "modified": "2022-10-17T14:35:35.090Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nik\": \"req.body.nik\",\n  \"name\": \"req.body.name\",\n  \"cityId\": \"req.body.city\",\n  \"provinceId\": \"req.body.province\",\n  \"address\": \"req.body.address\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"birthdate\": \"2022-09-01\",\n  \"password\": \"12345678\",\n  \"pin\": \"123456\",\n  \"membertypeId\": \"produsen\",\n  \"otp\": \"503664\"\n}",
+      "raw": "{\n  \"nik\": \"3304031305960001\",\n  \"name\": \"Rilas\",\n  \"cityId\": 37,\n  \"provinceId\": 10,\n  \"subdistrictId\": 510,\n  \"address\": \"pegadongan\",\n  \"email\": \"rilas@gmail.com\",\n  \"phoneNumber\": \"+6287713232252\",\n  \"birthdate\": \"2022-10-17\",\n  \"password\": \"123\",\n  \"pin\": \"123456\",\n  \"membertypeId\": 6,\n  \"otp\": \"000000\"\n}",
       "form": []
     },
     "tests": []
@@ -164,50 +164,14 @@
     "_id": "90f35f14-bee3-4e91-bbb5-51d43f992dbe",
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
-    "name": "update account",
-    "url": "{{baseurl}}/v1/user",
-    "method": "PATCH",
+    "name": "get my info",
+    "url": "{{baseurl}}/v1/user/me",
+    "method": "GET",
     "sortNum": 10000,
     "created": "2022-09-29T11:34:16.922Z",
-    "modified": "2022-09-29T11:55:34.927Z",
+    "modified": "2022-10-18T13:58:27.952Z",
     "headers": [],
     "params": [],
-    "body": {
-      "type": "formdata",
-      "raw": "",
-      "form": [
-        {
-          "name": "nik",
-          "value": "0000000000000000"
-        },
-        {
-          "name": "name",
-          "value": "Iqbal"
-        },
-        {
-          "name": "birthdate",
-          "value": "2022-09-01"
-        },
-        {
-          "name": "city",
-          "value": "banjar"
-        },
-        {
-          "name": "province",
-          "value": "jateng"
-        },
-        {
-          "name": "address",
-          "value": "jateng"
-        }
-      ],
-      "files": [
-        {
-          "name": "image",
-          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 19.39.43.png"
-        }
-      ]
-    },
     "tests": []
   },
   {
@@ -905,13 +869,19 @@
     "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
     "containerId": "",
     "name": "get nft",
-    "url": "{{baseurl}}/v1/nft",
+    "url": "{{baseurl}}/v1/nft?name=nft 1",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-10-09T05:47:30.083Z",
-    "modified": "2022-10-09T05:47:33.362Z",
+    "modified": "2022-10-17T15:50:51.113Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "name",
+        "value": "nft 1",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
@@ -1276,6 +1246,56 @@
       "type": "json",
       "raw": "{\n  \"pricelist\": [\n    {\n      \"code\": \"AETRA\",\n      \"margin\": 1\n    }\n  ]\n}",
       "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2a880377-8860-429d-a7e5-a3eb2640344e",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "update account Copy",
+    "url": "{{baseurl}}/v1/user",
+    "method": "PATCH",
+    "sortNum": 15000,
+    "created": "2022-10-18T13:56:52.234Z",
+    "modified": "2022-10-18T13:56:52.234Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "nik",
+          "value": "0000000000000000"
+        },
+        {
+          "name": "name",
+          "value": "Iqbal"
+        },
+        {
+          "name": "birthdate",
+          "value": "2022-09-01"
+        },
+        {
+          "name": "city",
+          "value": "banjar"
+        },
+        {
+          "name": "province",
+          "value": "jateng"
+        },
+        {
+          "name": "address",
+          "value": "jateng"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Desktop/Screen Shot 2022-09-28 at 19.39.43.png"
+        }
+      ]
     },
     "tests": []
   }

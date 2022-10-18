@@ -2,7 +2,7 @@
   {
     "_id": "9b26adf7-63f2-4a4b-88be-f951e8f733d5",
     "name": "dev",
-    "default": false,
+    "default": true,
     "sortNum": 10000,
     "created": "2022-09-28T16:10:37.278Z",
     "modified": "2022-09-28T16:10:53.624Z",
@@ -16,7 +16,7 @@
   {
     "_id": "b6665386-8327-44b7-9cec-5310d7412350",
     "name": "stg",
-    "default": true,
+    "default": false,
     "sortNum": 20000,
     "created": "2022-10-09T05:09:12.386Z",
     "modified": "2022-10-09T05:09:55.843Z",
