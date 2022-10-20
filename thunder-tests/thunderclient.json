@@ -893,12 +893,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-09T05:47:41.064Z",
-    "modified": "2022-10-09T05:48:59.954Z",
+    "modified": "2022-10-20T11:31:03.747Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nftSeriealId\": \"123\",\n  \"priceCoin\": 0\n}",
+      "raw": "{\n  \"nftSerialId\": \"FJ20221020001\",\n  \"priceCoin\": 0.0002362395762239986\n}",
       "form": []
     },
     "tests": []
@@ -912,12 +912,12 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-09T05:49:56.261Z",
-    "modified": "2022-10-09T05:51:10.596Z",
+    "modified": "2022-10-20T11:44:50.028Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nftSeriealId\": \"123\",\n  \"priceCoin\": 0,\n  \"buybackFee\": 0\n}",
+      "raw": "{\n  \"nftSerialId\": \"FJ20221020001\",\n  \"priceCoin\":0.00023604630000965428,\n  \"buybackFeePercentage\": 20\n}",
       "form": []
     },
     "tests": []
