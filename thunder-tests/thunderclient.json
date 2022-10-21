@@ -1359,5 +1359,61 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "50fb57ed-9594-4b61-9221-786888f4666d",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "1be1e16e-1d65-4dd9-a3a9-8880026e56ab",
+    "name": "get token kmp",
+    "url": "{{baseurl}}/v1/wallet/token/kmp",
+    "method": "GET",
+    "sortNum": 140000,
+    "created": "2022-10-21T02:10:32.407Z",
+    "modified": "2022-10-21T02:11:16.819Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "98d73c00-d405-4dd4-89fb-dec1b93f8189",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "1be1e16e-1d65-4dd9-a3a9-8880026e56ab",
+    "name": "get coin kmp",
+    "url": "{{baseurl}}/v1/wallet/coin/kmp",
+    "method": "GET",
+    "sortNum": 150000,
+    "created": "2022-10-21T02:12:06.552Z",
+    "modified": "2022-10-21T02:12:23.102Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "63e75b15-28e8-436f-a1b5-4a275903b12d",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "get token ",
+    "url": "{{baseurl}}/v1/wallet/token",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-10-21T02:17:12.427Z",
+    "modified": "2022-10-21T02:17:54.874Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c5d33a3a-8fdb-4ab8-b88d-efda39f5f668",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "get coin",
+    "url": "{{baseurl}}/v1/wallet/coin",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-10-21T02:17:21.313Z",
+    "modified": "2022-10-21T02:18:08.957Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
