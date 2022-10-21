@@ -32,6 +32,8 @@ declare namespace Express {
         membertype?: string | null;
         role?: 'operation' | 'superadmin';
         status: 'pending' | 'active' | 'suspend' | 'inactive';
+        walletAddress?: string;
+        walletStringify?: string;
         loginattemp?: any;
         tokenWallet?: {
             userId: number;
