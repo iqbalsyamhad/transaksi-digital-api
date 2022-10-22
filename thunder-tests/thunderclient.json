@@ -640,12 +640,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-10-05T15:38:15.894Z",
-    "modified": "2022-10-05T23:35:27.189Z",
+    "modified": "2022-10-22T16:50:06.641Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"total\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 501,\n  \"total\": 501\n}",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"totalSkuPrice\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"totalOrderDetail\": 501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 501,\n  \"gasefee\": 0.00105,\n  \"admfee\": 50.1,\n  \"total\": 551.10105\n}",
       "form": []
     },
     "tests": []
@@ -893,12 +893,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-09T05:47:41.064Z",
-    "modified": "2022-10-20T11:31:03.747Z",
+    "modified": "2022-10-22T17:01:44.732Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nftSerialId\": \"FJ20221020001\",\n  \"priceCoin\": 0.0002362395762239986\n}",
+      "raw": "{\n  \"nftSerialId\": \"JO20221020001\",\n  \"priceCoin\": 0.00023903675835558965\n}",
       "form": []
     },
     "tests": []
@@ -1414,6 +1414,39 @@
     "modified": "2022-10-21T02:18:08.957Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8572cf29-f730-488b-bb48-3ef4b2ffe97e",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get nft unit by serialId",
+    "url": "{{baseurl}}/v1/nft/unit/FJ20221020001",
+    "method": "GET",
+    "sortNum": 12500,
+    "created": "2022-10-21T17:33:41.930Z",
+    "modified": "2022-10-21T17:34:17.056Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f2b1911e-2d75-4483-a184-9423d224d05e",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "5927d844-a60a-41ef-b945-27adf74dbb3a",
+    "name": "create",
+    "url": "{{baseurl}}/v1/user/address",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-10-21T18:12:23.728Z",
+    "modified": "2022-10-21T18:12:51.610Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"rumah\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
