@@ -1731,5 +1731,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "fa5263f1-1148-4f31-802b-60a3d21fde2a",
+    "colId": "72334b89-0b54-44e5-9494-56bf35e9781f",
+    "containerId": "",
+    "name": "get courier",
+    "url": "{{baseurl}}/v1/shipping/courier",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-10-23T12:59:43.071Z",
+    "modified": "2022-10-23T12:59:58.848Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
