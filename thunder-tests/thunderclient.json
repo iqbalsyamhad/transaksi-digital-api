@@ -640,12 +640,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-10-05T15:38:15.894Z",
-    "modified": "2022-10-22T16:50:06.641Z",
+    "modified": "2022-10-23T08:01:54.415Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"totalSkuPrice\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"totalOrderDetail\": 501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 501,\n  \"gasefee\": 0.00105,\n  \"admfee\": 50.1,\n  \"total\": 551.10105\n}",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"totalSkuPrice\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"code\": \"jne\",\n        \"name\": \"Jalur Nugraha Ekakurir (JNE)\",\n        \"costs\": {\n          \"service\": \"CTC\",\n          \"description\": \"JNE City Courier\",\n          \"cost\": {\n            \"value\": 1000,\n            \"etd\": \"3-4\",\n            \"note\": \"\"\n          }\n        }\n      },\n      \"shippingTotal\": 1000,\n      \"subTotalOrderDetail\": 501,\n      \"totalOrderDetail\": 1501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 1501,\n  \"gasefee\": 0.00105,\n  \"admfee\": 50.1,\n  \"total\": 1551.10105\n}",
       "form": []
     },
     "tests": []
@@ -1491,12 +1491,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-10-23T04:45:27.598Z",
-    "modified": "2022-10-23T06:33:26.946Z",
+    "modified": "2022-10-23T07:54:49.026Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 4\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"shipper\": \"jne\"\n      }\n    }\n  ]\n}",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 4\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"code\": \"jne\"\n      }\n    }\n  ]\n}",
       "form": []
     },
     "tests": [],
