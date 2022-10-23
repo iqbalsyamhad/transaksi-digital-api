@@ -208,7 +208,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-30T02:02:40.698Z",
-    "modified": "2022-10-01T07:16:33.143Z",
+    "modified": "2022-10-23T05:49:54.674Z",
     "headers": [],
     "params": [],
     "body": {
@@ -224,15 +224,15 @@
           "value": "n"
         },
         {
-          "name": "province",
+          "name": "provinceId",
           "value": "n"
         },
         {
-          "name": "city",
+          "name": "cityId",
           "value": "n"
         },
         {
-          "name": "subDistrict",
+          "name": "subDistrictId",
           "value": "n"
         },
         {
@@ -266,7 +266,7 @@
     "method": "PATCH",
     "sortNum": 20000,
     "created": "2022-09-30T02:44:53.726Z",
-    "modified": "2022-10-01T07:16:35.140Z",
+    "modified": "2022-10-23T05:55:52.074Z",
     "headers": [],
     "params": [],
     "body": {
@@ -282,16 +282,16 @@
           "value": "n"
         },
         {
-          "name": "province",
-          "value": "n"
+          "name": "provinceId",
+          "value": "1"
         },
         {
-          "name": "city",
-          "value": "n"
+          "name": "cityId",
+          "value": "1"
         },
         {
-          "name": "subDistrict",
-          "value": "n"
+          "name": "subdistrictId",
+          "value": "1"
         },
         {
           "name": "postalCode",
@@ -1434,12 +1434,26 @@
     "_id": "f2b1911e-2d75-4483-a184-9423d224d05e",
     "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
     "containerId": "5927d844-a60a-41ef-b945-27adf74dbb3a",
-    "name": "create",
+    "name": "get",
     "url": "{{baseurl}}/v1/user/address",
-    "method": "POST",
+    "method": "GET",
     "sortNum": 50000,
     "created": "2022-10-21T18:12:23.728Z",
-    "modified": "2022-10-21T18:12:51.610Z",
+    "modified": "2022-10-23T04:37:56.412Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1e49552e-aecc-44c9-8057-762eb9d2b230",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "5927d844-a60a-41ef-b945-27adf74dbb3a",
+    "name": "update",
+    "url": "{{baseurl}}/v1/user/address/1",
+    "method": "PATCH",
+    "sortNum": 60000,
+    "created": "2022-10-23T04:19:14.471Z",
+    "modified": "2022-10-23T04:19:33.661Z",
     "headers": [],
     "params": [],
     "body": {
@@ -1448,5 +1462,44 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "335932e2-5a5b-475d-8d90-02bcb3a3df61",
+    "colId": "1d7b7be6-b91c-41fc-a69f-14a26ca99332",
+    "containerId": "5927d844-a60a-41ef-b945-27adf74dbb3a",
+    "name": "create Copy",
+    "url": "{{baseurl}}/v1/user/address",
+    "method": "POST",
+    "sortNum": 55000,
+    "created": "2022-10-23T04:21:53.520Z",
+    "modified": "2022-10-23T04:21:53.520Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"rumah\",\n  \"contactName\": \"Si A\",\n  \"phoneNumber\": \"08213\",\n  \"detailAddress\": \"Jl. A\",\n  \"provinceId\":1,\n  \"cityId\": 1,\n  \"subdistrictId\":1,\n  \"postalCode\": \"000000\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d03dfa8d-4885-4098-ac1e-47d7979369cc",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "31ced9fa-4ac5-405a-89ab-76ba301e4ec1",
+    "name": "product order inquiry",
+    "url": "{{baseurl}}/v1/product/order/inquiry",
+    "method": "POST",
+    "sortNum": 5000,
+    "created": "2022-10-23T04:45:27.598Z",
+    "modified": "2022-10-23T06:33:26.946Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 4\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"shipper\": \"jne\"\n      }\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": [],
+    "docs": "{\n  \"data\": {\n    \"orders\": [\n      {\n        \"sku\": [\n          {\n            \"skuId\": 1,\n            \"qty\": 4,\n            \"price\": 501,\n            \"weight\": 1000,\n            \"totalSkuPrice\": 2004\n          }\n        ],\n        \"storeId\": 1,\n        \"shipping\": {\n          \"addressBookId\": 1,\n          \"shipper\": \"jne\"\n        },\n        \"shippingData\": [\n          {\n            \"code\": \"jne\",\n            \"name\": \"Jalur Nugraha Ekakurir (JNE)\",\n            \"costs\": [\n              {\n                \"service\": \"CTC\",\n                \"description\": \"JNE City Courier\",\n                \"cost\": [\n                  {\n                    \"value\": 112000,\n                    \"etd\": \"3-4\",\n                    \"note\": \"\"\n                  }\n                ]\n              }\n            ]\n          }\n        ],\n        \"shippingTotal\": 0,\n        \"miscOrderDetail\": 0,\n        \"discOrderDetail\": 0,\n        \"subTotalOrderDetail\": 2004,\n        \"totalOrderDetail\": 2004,\n        \"notes\": \"\"\n      }\n    ],\n    \"miscellaneous\": 0,\n    \"discount\": 0,\n    \"subtotal\": 2004,\n    \"gasefee\": 0.00105,\n    \"admfee\": 200.4,\n    \"total\": 2204.40105\n  }\n}"
   }
 ]

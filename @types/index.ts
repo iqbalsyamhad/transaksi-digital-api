@@ -28,6 +28,7 @@ export interface walletData {
 export interface ShippingAddressInterface {
 	id?: number;
 	userId?: number | null;
+	user?: Express.User | null;
 	name?: string | null;
 	contactName: string;
 	phoneNumber: string;
