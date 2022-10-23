@@ -945,9 +945,20 @@
     "method": "POST",
     "sortNum": 25000,
     "created": "2022-10-10T14:39:16.906Z",
-    "modified": "2022-10-10T15:08:51.714Z",
+    "modified": "2022-10-23T13:06:57.341Z",
     "headers": [],
     "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Downloads/ktp.jpg"
+        }
+      ]
+    },
     "tests": [],
     "docs": "example response:\n{\n  \"data\": {\n    \"status\": \"OK\",\n    \"message\": {\n      \"name\": \"Gol  Darah B LAKI   LAKI\",\n      \"id\": \"xxxxxxxxxxxxxxxx\",\n      \"pob\": \"BANJARNEGARA\",\n      \"dob\": \"01-01-1995\",\n      \"gender\": \"LAKI-LAKI\",\n      \"address\": \"BANJAR\",\n      \"rt\": \"006\",\n      \"rw\": \"002\",\n      \"village\": \"BANJAR\",\n      \"district\": \"BANJAR\",\n      \"religion\": \"ISLAM\",\n      \"marital_status\": \"KAWIN\",\n      \"work\": \"KARYAWAN SWASTA\",\n      \"nationnality\": \"WNI\",\n      \"city\": \"KABUPATEN BANJARNEGARA\",\n      \"province\": \"JAWA TENGAH\"\n    }\n  }\n}"
   },
