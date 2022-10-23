@@ -1501,5 +1501,235 @@
     },
     "tests": [],
     "docs": "{\n  \"data\": {\n    \"orders\": [\n      {\n        \"sku\": [\n          {\n            \"skuId\": 1,\n            \"qty\": 4,\n            \"price\": 501,\n            \"weight\": 1000,\n            \"totalSkuPrice\": 2004\n          }\n        ],\n        \"storeId\": 1,\n        \"shipping\": {\n          \"addressBookId\": 1,\n          \"shipper\": \"jne\"\n        },\n        \"shippingData\": [\n          {\n            \"code\": \"jne\",\n            \"name\": \"Jalur Nugraha Ekakurir (JNE)\",\n            \"costs\": [\n              {\n                \"service\": \"CTC\",\n                \"description\": \"JNE City Courier\",\n                \"cost\": [\n                  {\n                    \"value\": 112000,\n                    \"etd\": \"3-4\",\n                    \"note\": \"\"\n                  }\n                ]\n              }\n            ]\n          }\n        ],\n        \"shippingTotal\": 0,\n        \"miscOrderDetail\": 0,\n        \"discOrderDetail\": 0,\n        \"subTotalOrderDetail\": 2004,\n        \"totalOrderDetail\": 2004,\n        \"notes\": \"\"\n      }\n    ],\n    \"miscellaneous\": 0,\n    \"discount\": 0,\n    \"subtotal\": 2004,\n    \"gasefee\": 0.00105,\n    \"admfee\": 200.4,\n    \"total\": 2204.40105\n  }\n}"
+  },
+  {
+    "_id": "ad1f546a-9f6f-4090-8a85-19d0ab07b4cb",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set gas fee token",
+    "url": "{{baseurl}}/v1/backoffice/setting/tokengasfee",
+    "method": "POST",
+    "sortNum": 160000,
+    "created": "2022-10-23T12:10:00.133Z",
+    "modified": "2022-10-23T12:11:03.257Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b87d36af-6758-4341-a20f-ea7927802762",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set gas fee coin",
+    "url": "{{baseurl}}/v1/backoffice/setting/coingasfee",
+    "method": "POST",
+    "sortNum": 170000,
+    "created": "2022-10-23T12:11:07.153Z",
+    "modified": "2022-10-23T12:11:42.444Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00001\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "bb058a25-f81a-444e-8146-3c80e6188b4b",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set marketplace adm fee",
+    "url": "{{baseurl}}/v1/backoffice/setting/marketplaceadm",
+    "method": "POST",
+    "sortNum": 180000,
+    "created": "2022-10-23T12:11:47.483Z",
+    "modified": "2022-10-23T12:17:35.768Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"percentage\": 10\n}",
+      "form": []
+    },
+    "tests": [],
+    "docs": "Pilih salah 1, nominal atau prosentase.<br />\ncontoh nominal = <b>value: 2500</b><br />\ncontoh prosentase = <b>percentage: 10 (10%)</b>"
+  },
+  {
+    "_id": "90f5760d-00e0-4ed1-a7aa-7285ea025148",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set nft adm fee",
+    "url": "{{baseurl}}/v1/backoffice/setting/nftadm",
+    "method": "POST",
+    "sortNum": 190000,
+    "created": "2022-10-23T12:17:46.299Z",
+    "modified": "2022-10-23T12:18:12.084Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"percentage\": 10\n}",
+      "form": []
+    },
+    "tests": [],
+    "docs": "Pilih salah 1, nominal atau prosentase.<br />\ncontoh nominal = <b>value: 2500</b><br />\ncontoh prosentase = <b>percentage: 10 (10%)</b>"
+  },
+  {
+    "_id": "aec05fc2-d7e7-4a5e-94f5-aac2ec0fcac6",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set nft buyback fee",
+    "url": "{{baseurl}}/v1/backoffice/setting/nftbuybackfee",
+    "method": "POST",
+    "sortNum": 200000,
+    "created": "2022-10-23T12:18:30.851Z",
+    "modified": "2022-10-23T12:19:04.510Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"percentage\": 20\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "413ebe20-cda1-4628-8780-1e4bcd95563e",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set store transaction fee",
+    "url": "{{baseurl}}/v1/backoffice/setting/storefee",
+    "method": "POST",
+    "sortNum": 210000,
+    "created": "2022-10-23T12:19:37.475Z",
+    "modified": "2022-10-23T12:20:11.585Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"percentage\": 10\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "22638692-de9d-44ad-93f8-9e41e7b794ac",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get gas fee token (NOMINAL)",
+    "url": "{{baseurl}}/v1/backoffice/setting/tokengasfee",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-10-23T12:24:58.738Z",
+    "modified": "2022-10-23T12:26:06.141Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6b094c5f-b901-4de1-8e20-3dcbb6b6d37c",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get gas fee coin (NOMINAL)",
+    "url": "{{baseurl}}/v1/backoffice/setting/coingasfee",
+    "method": "GET",
+    "sortNum": 165000,
+    "created": "2022-10-23T12:26:12.489Z",
+    "modified": "2022-10-23T12:26:35.965Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e2cba966-2a85-49a6-9e41-f1debfe30e44",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get marketplace adm fee (PERSEN/NOMINAL)",
+    "url": "{{baseurl}}/v1/backoffice/setting/marketplaceadm",
+    "method": "GET",
+    "sortNum": 175000,
+    "created": "2022-10-23T12:28:15.846Z",
+    "modified": "2022-10-23T12:29:48.532Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "56735a21-bd7c-4b18-9955-b1e3a685797a",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get nft adm fee (PERSEN/NOMINAL)",
+    "url": "{{baseurl}}/v1/backoffice/setting/nftadm",
+    "method": "GET",
+    "sortNum": 185000,
+    "created": "2022-10-23T12:28:47.862Z",
+    "modified": "2022-10-23T12:30:08.337Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e3c9b671-0b71-442b-83f2-6d2fea7a3321",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get nft buyback fee  (PERSEN)",
+    "url": "{{baseurl}}/v1/backoffice/setting/nftbuybackfee",
+    "method": "GET",
+    "sortNum": 195000,
+    "created": "2022-10-23T12:30:13.741Z",
+    "modified": "2022-10-23T12:30:36.874Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "647e5ff2-1fa1-49f3-b086-5446ddb8e4ec",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get store transaction fee (PERSEN)",
+    "url": "{{baseurl}}/v1/backoffice/setting/storefee",
+    "method": "GET",
+    "sortNum": 205000,
+    "created": "2022-10-23T12:30:49.637Z",
+    "modified": "2022-10-23T12:31:30.517Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": 0.00105\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
