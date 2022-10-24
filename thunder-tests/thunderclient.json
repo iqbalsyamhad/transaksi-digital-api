@@ -1756,5 +1756,19 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "f709dc24-e094-46a5-b8d6-49b45796d47a",
+    "colId": "e82b132a-0a17-4439-ad57-143e8a1a2964",
+    "containerId": "",
+    "name": "callback",
+    "url": "https://api-kmp.superteam.web.id/v1/payment/callback",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-10-24T13:07:44.700Z",
+    "modified": "2022-10-24T13:07:53.028Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
