@@ -893,12 +893,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-09T05:47:41.064Z",
-    "modified": "2022-10-22T17:01:44.732Z",
+    "modified": "2022-10-24T13:21:35.143Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nftSerialId\": \"JO20221020001\",\n  \"priceCoin\": 0.00023903675835558965\n}",
+      "raw": "{\n  \"nftSerialId\": \"P620221008001\",\n  \"priceCoin\": 0.0002346238112198045\n}",
       "form": []
     },
     "tests": []
@@ -1767,6 +1767,20 @@
     "sortNum": 10000,
     "created": "2022-10-24T13:07:44.700Z",
     "modified": "2022-10-24T13:14:17.624Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "602b2557-75e4-45d2-a9c6-e564d875c5f7",
+    "colId": "e82b132a-0a17-4439-ad57-143e8a1a2964",
+    "containerId": "",
+    "name": "inq",
+    "url": "https://api-kmp.superteam.web.id/v1/payment/va/inquiry",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-10-24T13:16:16.406Z",
+    "modified": "2022-10-24T13:16:28.693Z",
     "headers": [],
     "params": [],
     "tests": []
