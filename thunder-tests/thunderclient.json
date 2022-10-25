@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-16T09:58:40.487Z",
+    "modified": "2022-10-25T12:44:57.434Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
       "form": []
     },
     "tests": []
@@ -1403,7 +1403,7 @@
     "_id": "63e75b15-28e8-436f-a1b5-4a275903b12d",
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
-    "name": "get token ",
+    "name": "get token (gasuah dipake)",
     "url": "{{baseurl}}/v1/wallet/token",
     "method": "GET",
     "sortNum": 40000,
@@ -1417,7 +1417,7 @@
     "_id": "c5d33a3a-8fdb-4ab8-b88d-efda39f5f668",
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
-    "name": "get coin",
+    "name": "get coin (gausah dipake)",
     "url": "{{baseurl}}/v1/wallet/coin",
     "method": "GET",
     "sortNum": 50000,
