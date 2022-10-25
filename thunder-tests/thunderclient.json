@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-25T12:44:57.434Z",
+    "modified": "2022-10-25T12:55:09.901Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -1095,11 +1095,11 @@
     "colId": "7631f7c6-a8e7-404f-9e03-18b8ba3a592d",
     "containerId": "928d7a4d-d1c5-4be5-91b1-3693997cecf6",
     "name": "get postpaid product",
-    "url": "{{baseurl}}/v1/ppob/postpaid/product/pajak-kendaraan",
+    "url": "{{baseurl}}/v1/ppob/postpaid/product/emoney",
     "method": "POST",
     "sortNum": 80000,
     "created": "2022-10-13T16:53:53.620Z",
-    "modified": "2022-10-16T14:24:36.549Z",
+    "modified": "2022-10-25T12:57:31.249Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -1113,12 +1113,12 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2022-10-13T17:02:49.785Z",
-    "modified": "2022-10-25T12:36:30.670Z",
+    "modified": "2022-10-25T12:58:11.479Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"code\": \"TELKOMPSTN\",\n  \"customer_id\": \"6391601201\"\n}",
+      "raw": "{\n  \"code\": \"OVO\",\n  \"customer_id\": \"+6282136106764\"\n}",
       "form": []
     },
     "tests": []
@@ -1264,7 +1264,7 @@
     "_id": "2a880377-8860-429d-a7e5-a3eb2640344e",
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
-    "name": "update account Copy",
+    "name": "update account",
     "url": "{{baseurl}}/v1/user",
     "method": "PATCH",
     "sortNum": 15000,
