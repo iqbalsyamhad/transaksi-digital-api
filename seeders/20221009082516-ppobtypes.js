@@ -33,7 +33,7 @@ module.exports = {
         {
           "key": "pln",
           "name": "PLN",
-          "postpaid": false
+          "postpaid": null
         },
         {
           "key": "bangladesh",
@@ -153,11 +153,6 @@ module.exports = {
         {
           "key": "pajak-daerah",
           "name": "Pajak Daerah",
-          "postpaid": true
-        },
-        {
-          "key": "pln",
-          "name": "PLN Pascabayar",
           "postpaid": true
         },
         {

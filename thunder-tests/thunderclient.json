@@ -893,12 +893,17 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-09T05:47:41.064Z",
-    "modified": "2022-10-24T13:21:35.143Z",
-    "headers": [],
+    "modified": "2022-10-25T14:27:29.349Z",
+    "headers": [
+      {
+        "name": "pin",
+        "value": "123"
+      }
+    ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"nftSerialId\": \"P620221008001\",\n  \"priceCoin\": 0.0002346238112198045\n}",
+      "raw": "{\n  \"nftSerialId\": \"P620221008001\"\n}",
       "form": []
     },
     "tests": []
@@ -1802,6 +1807,41 @@
       "raw": "{\n  \"oldpin\": \"123456\",\n  \"newpin\": \"654321\"\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "3b4f6902-e6e2-43fb-8109-b4d1a495ee58",
+    "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
+    "containerId": "",
+    "name": "get all",
+    "url": "{{baseurl}}/v1/history?page=1&limit=2&search=pdam&order=createdAt:desc",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-10-25T15:46:57.522Z",
+    "modified": "2022-10-25T23:44:40.710Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "2",
+        "isPath": false
+      },
+      {
+        "name": "search",
+        "value": "pdam",
+        "isPath": false
+      },
+      {
+        "name": "order",
+        "value": "createdAt:desc",
+        "isPath": false
+      }
+    ],
     "tests": []
   }
 ]
