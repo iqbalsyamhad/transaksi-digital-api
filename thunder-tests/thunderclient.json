@@ -1113,12 +1113,12 @@
     "method": "POST",
     "sortNum": 90000,
     "created": "2022-10-13T17:02:49.785Z",
-    "modified": "2022-10-15T03:05:24.733Z",
+    "modified": "2022-10-25T12:36:30.670Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"code\": \"PDAMKOTA.SURABAYA\",\n  \"customer_id\": \"10202001\"\n}",
+      "raw": "{\n  \"code\": \"TELKOMPSTN\",\n  \"customer_id\": \"6391601201\"\n}",
       "form": []
     },
     "tests": []
