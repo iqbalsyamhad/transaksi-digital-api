@@ -1784,5 +1784,24 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "019a450e-dd2d-42ae-bafe-a8a207a2abd8",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "change PIN",
+    "url": "{{baseurl}}/v1/user/pin",
+    "method": "PATCH",
+    "sortNum": 25000,
+    "created": "2022-10-25T02:53:24.438Z",
+    "modified": "2022-10-25T02:56:43.784Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"oldpin\": \"123456\",\n  \"newpin\": \"654321\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
