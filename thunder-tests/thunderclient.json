@@ -488,13 +488,19 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get all product",
-    "url": "{{baseurl}}/v1/product",
+    "url": "{{baseurl}}/v1/product?productSelling=online",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-01T06:57:54.536Z",
-    "modified": "2022-10-01T07:13:50.210Z",
+    "modified": "2022-10-25T23:50:52.351Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "productSelling",
+        "value": "online",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
