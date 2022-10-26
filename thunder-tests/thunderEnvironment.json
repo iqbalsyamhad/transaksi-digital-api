@@ -16,7 +16,7 @@
   {
     "_id": "b6665386-8327-44b7-9cec-5310d7412350",
     "name": "stg",
-    "default": false,
+    "default": true,
     "sortNum": 20000,
     "created": "2022-10-09T05:09:12.386Z",
     "modified": "2022-10-09T05:09:55.843Z",
@@ -30,7 +30,7 @@
   {
     "_id": "205a2e32-88ae-4791-b7fb-ea873523738e",
     "name": "alibaba",
-    "default": true,
+    "default": false,
     "sortNum": 30000,
     "created": "2022-10-26T14:28:06.366Z",
     "modified": "2022-10-26T14:28:40.215Z",
