@@ -488,16 +488,17 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get all product",
-    "url": "{{baseurl}}/v1/product?productSelling=online",
+    "url": "{{baseurl}}/v1/product",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-01T06:57:54.536Z",
-    "modified": "2022-10-25T23:50:52.351Z",
+    "modified": "2022-10-26T15:41:16.754Z",
     "headers": [],
     "params": [
       {
         "name": "productSelling",
         "value": "online",
+        "isDisabled": true,
         "isPath": false
       }
     ],
@@ -1591,12 +1592,12 @@
     "method": "POST",
     "sortNum": 190000,
     "created": "2022-10-23T12:17:46.299Z",
-    "modified": "2022-10-23T12:18:12.084Z",
+    "modified": "2022-10-27T19:40:39.520Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"percentage\": 10\n}",
+      "raw": "{\n  \"percentage\": 11\n}",
       "form": []
     },
     "tests": [],
@@ -1848,6 +1849,82 @@
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "9495677e-e8de-4684-84ad-f7eb616bca81",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set about us",
+    "url": "{{baseurl}}/v1/backoffice/setting/app/aboutus",
+    "method": "POST",
+    "sortNum": 220000,
+    "created": "2022-10-27T19:41:05.802Z",
+    "modified": "2022-10-27T19:45:31.577Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": \"<h1>KMPTOGP</h1>\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0b062332-1fb5-4ecc-8578-f6c773d333f2",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "set privacy policy",
+    "url": "{{baseurl}}/v1/backoffice/setting/app/privacy",
+    "method": "POST",
+    "sortNum": 230000,
+    "created": "2022-10-27T19:45:38.720Z",
+    "modified": "2022-10-27T19:46:05.219Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": \"<h1>PRIVACY</h1>\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "1249e5e0-f3cd-4909-98bb-10264916bfaf",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get about us",
+    "url": "{{baseurl}}/v1/app/aboutus",
+    "method": "GET",
+    "sortNum": 215000,
+    "created": "2022-10-27T19:49:27.781Z",
+    "modified": "2022-10-27T19:49:54.293Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": \"<h1>KMPTOGP</h1>\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c65e3f2f-eb0c-4109-adfc-1b44ebe1a71f",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "get privacy policy",
+    "url": "{{baseurl}}/v1/app/privacy",
+    "method": "GET",
+    "sortNum": 225000,
+    "created": "2022-10-27T19:50:06.796Z",
+    "modified": "2022-10-27T19:50:24.769Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": \"<h1>KMPTOGP</h1>\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
