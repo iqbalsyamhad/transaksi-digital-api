@@ -2,7 +2,7 @@
   {
     "_id": "9b26adf7-63f2-4a4b-88be-f951e8f733d5",
     "name": "dev",
-    "default": true,
+    "default": false,
     "sortNum": 10000,
     "created": "2022-09-28T16:10:37.278Z",
     "modified": "2022-09-28T16:10:53.624Z",
@@ -30,7 +30,7 @@
   {
     "_id": "205a2e32-88ae-4791-b7fb-ea873523738e",
     "name": "alibaba",
-    "default": false,
+    "default": true,
     "sortNum": 30000,
     "created": "2022-10-26T14:28:06.366Z",
     "modified": "2022-10-26T14:28:40.215Z",
