@@ -488,17 +488,16 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get all product",
-    "url": "{{baseurl}}/v1/product",
+    "url": "{{baseurl}}/v1/product?storeId=2",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-01T06:57:54.536Z",
-    "modified": "2022-10-26T15:41:16.754Z",
+    "modified": "2022-10-31T19:05:08.021Z",
     "headers": [],
     "params": [
       {
-        "name": "productSelling",
-        "value": "online",
-        "isDisabled": true,
+        "name": "storeId",
+        "value": "2",
         "isPath": false
       }
     ],
@@ -882,13 +881,24 @@
     "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
     "containerId": "",
     "name": "get nft",
-    "url": "{{baseurl}}/v1/nft",
+    "url": "{{baseurl}}/v1/nft?avlUnit=!0&status=umum",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-10-09T05:47:30.083Z",
-    "modified": "2022-10-20T09:13:27.108Z",
+    "modified": "2022-10-31T19:19:08.517Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "avlUnit",
+        "value": "!0",
+        "isPath": false
+      },
+      {
+        "name": "status",
+        "value": "umum",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
@@ -1925,6 +1935,20 @@
       "raw": "{\n  \"value\": \"<h1>KMPTOGP</h1>\"\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "2b93cb9b-fc0d-48cb-97a2-060f0e403727",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get nft by nftId",
+    "url": "{{baseurl}}/v1/nft/ede518d1-b263-4819-aa1e-b673d9f83580",
+    "method": "GET",
+    "sortNum": 11250,
+    "created": "2022-10-31T18:53:15.522Z",
+    "modified": "2022-10-31T19:01:30.489Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
