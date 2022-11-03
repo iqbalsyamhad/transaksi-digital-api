@@ -609,12 +609,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-04T02:28:54.290Z",
-    "modified": "2022-10-04T02:32:50.402Z",
+    "modified": "2022-11-03T12:54:10.265Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"req.body.name\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"name\": \"req.body.name\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"12345678\",\n  \"storeId\": 1\n}",
       "form": []
     },
     "tests": []
@@ -950,13 +950,19 @@
     "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
     "containerId": "",
     "name": "get MY nft",
-    "url": "{{baseurl}}/v1/nft/my",
+    "url": "{{baseurl}}/v1/nft/my?status=usaha",
     "method": "GET",
     "sortNum": 15000,
     "created": "2022-10-09T06:22:31.844Z",
-    "modified": "2022-10-09T06:22:45.175Z",
+    "modified": "2022-11-03T12:41:54.594Z",
     "headers": [],
-    "params": [],
+    "params": [
+      {
+        "name": "status",
+        "value": "usaha",
+        "isPath": false
+      }
+    ],
     "tests": []
   },
   {
