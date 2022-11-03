@@ -2017,5 +2017,19 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "2def973f-3c12-4f28-b2d2-d440cd824c97",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get nft nya dari sisi produsen",
+    "url": "{{baseurl}}/v1/nft/byme",
+    "method": "GET",
+    "sortNum": 17500,
+    "created": "2022-11-03T09:56:12.146Z",
+    "modified": "2022-11-03T09:56:30.652Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]
