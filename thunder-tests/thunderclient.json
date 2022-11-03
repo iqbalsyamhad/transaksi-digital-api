@@ -2031,5 +2031,38 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "e682d82c-adb9-4171-90e7-1c4cfdf22de9",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "get nft categories",
+    "url": "{{baseurl}}/v1/nft/category",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-11-03T10:19:51.634Z",
+    "modified": "2022-11-03T10:20:14.064Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "36e9f02b-1511-4729-afa0-c4429296f5a7",
+    "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
+    "containerId": "",
+    "name": "create nft category",
+    "url": "{{baseurl}}/v1/nft/category",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-11-03T10:23:20.380Z",
+    "modified": "2022-11-03T10:23:47.323Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 1,\n  \"name\": \"test 1\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
