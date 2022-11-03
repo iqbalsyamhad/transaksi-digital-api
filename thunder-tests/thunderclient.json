@@ -2116,11 +2116,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry incoming va",
-    "url": "{{baseurl}}/v1/payment/forward",
+    "url": "https://digitogo.tech/v1/payment/forward",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-03T14:58:27.913Z",
+    "modified": "2022-11-03T15:44:36.041Z",
     "headers": [
       {
         "name": "Api-Key",
