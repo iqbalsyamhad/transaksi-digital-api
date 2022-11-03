@@ -2070,5 +2070,81 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "6e1f53bc-071b-46ec-8026-a78cd55a3d80",
+    "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
+    "containerId": "",
+    "name": "generate hmac",
+    "url": "http://147.139.168.187:8081/api/generate",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-03T14:11:07.210Z",
+    "modified": "2022-11-03T14:28:04.642Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "API-Key",
+        "value": "94a56499-a7f8-42ec-9730-0376b8548f0"
+      },
+      {
+        "name": "requestmethod",
+        "value": "POST"
+      },
+      {
+        "name": "relativepath",
+        "value": "/api/v1/va/inquiry"
+      },
+      {
+        "name": "timestamp",
+        "value": "2022-11-03T21:13:00.000+07:00"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221103211300\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "d823e4c2-1433-4c07-99bd-f4a7247d5895",
+    "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
+    "containerId": "",
+    "name": "inquiry incoming va",
+    "url": "https://115.85.74.55:7065/api/v1/va/inquiry",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-11-03T14:24:55.749Z",
+    "modified": "2022-11-03T14:29:39.468Z",
+    "headers": [
+      {
+        "name": "Api-Key",
+        "value": "94a56499-a7f8-42ec-9730-0376b8548f0"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Timestamp",
+        "value": "2022-11-03T21:13:00.000+07:00"
+      },
+      {
+        "name": "Signature",
+        "value": "9fcea00c2e630dbb84b3c9f7d39eddc50e5b16606b0bfde389133f40a57c70f2"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221103211300\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
