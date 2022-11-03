@@ -488,16 +488,17 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get all product",
-    "url": "{{baseurl}}/v1/product?storeId=2",
+    "url": "{{baseurl}}/v1/product",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-01T06:57:54.536Z",
-    "modified": "2022-10-31T19:05:08.021Z",
+    "modified": "2022-11-03T09:42:03.636Z",
     "headers": [],
     "params": [
       {
         "name": "storeId",
         "value": "2",
+        "isDisabled": true,
         "isPath": false
       }
     ],
@@ -881,16 +882,16 @@
     "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
     "containerId": "",
     "name": "get nft",
-    "url": "{{baseurl}}/v1/nft?avlUnit=!0&status=umum",
+    "url": "{{baseurl}}/v1/nft?avlUnit=0&status=umum",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-10-09T05:47:30.083Z",
-    "modified": "2022-10-31T19:19:08.517Z",
+    "modified": "2022-10-31T19:55:54.642Z",
     "headers": [],
     "params": [
       {
         "name": "avlUnit",
-        "value": "!0",
+        "value": "0",
         "isPath": false
       },
       {
@@ -1949,6 +1950,72 @@
     "modified": "2022-10-31T19:01:30.489Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "76fc414d-0334-40d8-a46c-54b9e7bf1875",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "fee8b869-50b4-428c-9f4e-739340362e77",
+    "name": "get all parent categories",
+    "url": "{{baseurl}}/v1/product/category",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-11-03T09:33:23.112Z",
+    "modified": "2022-11-03T09:36:15.216Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fc8268b2-0aca-4b13-b2d3-1e0b29311009",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "fee8b869-50b4-428c-9f4e-739340362e77",
+    "name": "get all subcategory by categoryId",
+    "url": "{{baseurl}}/v1/product/category/1",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-11-03T09:35:49.246Z",
+    "modified": "2022-11-03T09:36:18.681Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ad3e802b-d809-407c-81f6-534e9d02e6e3",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "fee8b869-50b4-428c-9f4e-739340362e77",
+    "name": "create / update category",
+    "url": "{{baseurl}}/v1/product/category",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-11-03T09:36:22.695Z",
+    "modified": "2022-11-03T09:38:33.942Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 2,\n  \"name\": \"Category 2\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "287548fb-6840-43ca-9d6f-ca6e3e7cbb9f",
+    "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
+    "containerId": "fee8b869-50b4-428c-9f4e-739340362e77",
+    "name": "create / update subcategory",
+    "url": "{{baseurl}}/v1/product/subcategory",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-11-03T09:38:55.550Z",
+    "modified": "2022-11-03T09:40:06.482Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": 8,\n  \"categoryId\": 1,\n  \"name\": \"Category 3\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
