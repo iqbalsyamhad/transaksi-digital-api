@@ -2116,11 +2116,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry incoming va",
-    "url": "https://115.85.74.55:7065/api/v1/va/inquiry",
+    "url": "{{baseurl}}/v1/payment/forward",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-03T14:29:39.468Z",
+    "modified": "2022-11-03T14:35:08.625Z",
     "headers": [
       {
         "name": "Api-Key",
@@ -2142,7 +2142,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221103211300\"\n}",
+      "raw": "{\n  \"url\": \"https://115.85.74.55:7065/api/v1/va/inquiry\",\n  \"payload\": {\n    \"ProCode\": \"100600\",\n    \"TransactionId\": \"123456789012\",\n    \"MerchantId\": \"KMPTG1\",\n    \"CustomerNo\": \"5582929202020202\",\n    \"Amount\": \"100000\",\n    \"AdditionalData\": \"1234\",\n    \"FlagAmountCheck\": \"1\",\n    \"TransactionDate\": \"20221103211300\"\n  }\n}",
       "form": []
     },
     "tests": []
