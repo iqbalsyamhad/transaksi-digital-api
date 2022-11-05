@@ -367,7 +367,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-30T07:06:01.593Z",
-    "modified": "2022-09-30T17:19:02.184Z",
+    "modified": "2022-11-05T02:08:04.500Z",
     "headers": [],
     "params": [],
     "body": {
@@ -383,27 +383,25 @@
           "value": "Product 2"
         },
         {
-          "name": "price",
-          "value": "10000",
-          "isDisabled": true
-        },
-        {
-          "name": "stock",
-          "value": "",
-          "isDisabled": true
-        },
-        {
-          "name": "weight",
-          "value": "0",
-          "isDisabled": true
-        },
-        {
           "name": "description",
           "value": "jjhjh"
         },
         {
           "name": "sku",
-          "value": "[ { \"price\": 501, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"L\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Merah\" } } ] }, { \"price\": 502, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"XL\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Kuning\" } } ] } ]"
+          "value": "[ { \"price\": 501, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"L\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Merah\" } } ] }, { \"price\": 502, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"XL\" } }, { \"name\": \"Warna\", \"variantOption\": { \"name\": \"Kuning\" } } ] } ]",
+          "isDisabled": true
+        },
+        {
+          "name": "categoryId",
+          "value": "1"
+        },
+        {
+          "name": "productSelling",
+          "value": "online"
+        },
+        {
+          "name": "sku",
+          "value": "[ { \"price\": 501, \"weight\": 1000 } ]"
         }
       ],
       "files": [
@@ -2080,7 +2078,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-03T14:11:07.210Z",
-    "modified": "2022-11-03T14:28:04.642Z",
+    "modified": "2022-11-04T14:10:24.660Z",
     "headers": [
       {
         "name": "Content-Type",
@@ -2100,13 +2098,13 @@
       },
       {
         "name": "timestamp",
-        "value": "2022-11-03T21:13:00.000+07:00"
+        "value": "2022-11-04T20:52:00.000+07:00"
       }
     ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221103211300\"\n}",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221104205200\"\n}",
       "form": []
     },
     "tests": []
@@ -2120,7 +2118,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-04T13:35:06.465Z",
+    "modified": "2022-11-04T14:11:01.714Z",
     "headers": [
       {
         "name": "Api-Key",
@@ -2152,7 +2150,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"url\": \"https://115.85.74.55:7065/api/v1/va/inquiry\",\n  \"payload\": {\n    \"ProCode\": \"100600\",\n    \"TransactionId\": \"123456789012\",\n    \"MerchantId\": \"KMPTG1\",\n    \"CustomerNo\": \"5582929202020202\",\n    \"Amount\": \"100000\",\n    \"AdditionalData\": \"1234\",\n    \"FlagAmountCheck\": \"1\",\n    \"TransactionDate\": \"20221103211300\"\n  }\n}",
+      "raw": "{\n  \"url\": \"https://115.85.74.55:7065/api/v1/va/inquiry\",\n  \"signature\": \"38ed07b9e14db708365f2d71971d7debe1046af1bb86acfbdb49a5ce1979b4a3\",\n  \"timestamp\": \"2022-11-04T20:52:00.000+07:00\",\n  \"payload\": {\n    \"ProCode\": \"100600\",\n    \"TransactionId\": \"123456789012\",\n    \"MerchantId\": \"KMPTG1\",\n    \"CustomerNo\": \"5582929202020202\",\n    \"Amount\": \"100000\",\n    \"AdditionalData\": \"1234\",\n    \"FlagAmountCheck\": \"1\",\n    \"TransactionDate\": \"20221104205200\"\n  }\n}",
       "form": []
     },
     "tests": []
