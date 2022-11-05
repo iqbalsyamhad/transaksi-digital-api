@@ -2133,16 +2133,16 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry bank account",
-    "url": "https://digitogo.tech/v1/payment/forward",
+    "url": "https://digitogo.tech/v1/payment/bankinquiry",
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-11-05T04:56:41.031Z",
-    "modified": "2022-11-05T04:56:41.031Z",
+    "modified": "2022-11-05T04:59:05.917Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"082136106764\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
+      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"324112344459\",\n  \"MerchantId\": \"000101\",\n  \"SourceNo\": \"5800022298\",\n  \"BeneficiaryNo\": \"75489993\",\n  \"BankCode\": \"014\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\"\n}",
       "form": []
     },
     "tests": []
