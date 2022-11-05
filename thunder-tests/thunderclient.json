@@ -2118,12 +2118,31 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-05T04:43:10.287Z",
+    "modified": "2022-11-05T04:52:44.430Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
+      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"082136106764\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ce45f637-e43e-4eb5-9e06-9b7a6f4b111b",
+    "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
+    "containerId": "",
+    "name": "inquiry bank account",
+    "url": "https://digitogo.tech/v1/payment/forward",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-11-05T04:56:41.031Z",
+    "modified": "2022-11-05T04:56:41.031Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"082136106764\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
       "form": []
     },
     "tests": []
