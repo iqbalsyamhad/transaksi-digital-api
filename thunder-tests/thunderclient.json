@@ -423,7 +423,7 @@
     "method": "PATCH",
     "sortNum": 20000,
     "created": "2022-10-01T02:38:01.741Z",
-    "modified": "2022-10-01T05:28:09.329Z",
+    "modified": "2022-11-07T21:20:39.180Z",
     "headers": [],
     "params": [],
     "body": {
@@ -432,19 +432,22 @@
       "form": [
         {
           "name": "name",
-          "value": "Product 2"
+          "value": "Product 22222"
         },
         {
           "name": "price",
-          "value": "10"
+          "value": "10",
+          "isDisabled": true
         },
         {
           "name": "stock",
-          "value": "1"
+          "value": "1",
+          "isDisabled": true
         },
         {
           "name": "weight",
-          "value": "0"
+          "value": "0",
+          "isDisabled": true
         },
         {
           "name": "description",
@@ -452,8 +455,11 @@
         },
         {
           "name": "sku",
-          "value": "[{ \"id\": 12, \"price\": 5011, \"weight\": 1000, \"variant\": [ { \"name\": \"Ukuran\", \"variantOption\": { \"name\": \"L\" } } ] } ]",
-          "isDisabled": true
+          "value": "[{ \"id\": 3, \"price\": 5011, \"weight\": 1000 }]"
+        },
+        {
+          "name": "productSelling",
+          "value": "both"
         }
       ],
       "files": [
@@ -486,17 +492,16 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get all product",
-    "url": "{{baseurl}}/v1/product",
+    "url": "{{baseurl}}/v1/product?storeId=1",
     "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-01T06:57:54.536Z",
-    "modified": "2022-11-03T09:42:03.636Z",
+    "modified": "2022-11-07T21:07:10.513Z",
     "headers": [],
     "params": [
       {
         "name": "storeId",
-        "value": "2",
-        "isDisabled": true,
+        "value": "1",
         "isPath": false
       }
     ],
