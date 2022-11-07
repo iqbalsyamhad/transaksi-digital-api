@@ -612,12 +612,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-10-04T02:28:54.290Z",
-    "modified": "2022-11-03T12:54:10.265Z",
+    "modified": "2022-11-07T21:28:09.300Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"req.body.name\",\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"12345678\",\n  \"storeId\": 1\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\",\n  \"storeId\": 1\n}",
       "form": []
     },
     "tests": []
