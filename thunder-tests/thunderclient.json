@@ -2151,5 +2151,80 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "7b5ed410-76a4-4de1-bd59-f528414dab4b",
+    "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
+    "containerId": "",
+    "name": "get marketplace histories",
+    "url": "{{baseurl}}/v1/history/marketplace?page=1&limit=2",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-11T10:01:35.791Z",
+    "modified": "2022-11-11T10:02:04.609Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "2",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "0e1b5591-e7fa-4d98-a488-926875a9c9f9",
+    "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
+    "containerId": "",
+    "name": "get ppob histories",
+    "url": "{{baseurl}}/v1/history/ppob?page=1&limit=2",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-11-11T10:02:31.437Z",
+    "modified": "2022-11-11T10:03:01.516Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "2",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "92033bf1-a84b-4753-9fcd-95924c94cbfb",
+    "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
+    "containerId": "",
+    "name": "get nft histories",
+    "url": "{{baseurl}}/v1/history/nft?page=1&limit=2",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-11-11T10:03:16.711Z",
+    "modified": "2022-11-11T10:03:28.206Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "2",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
