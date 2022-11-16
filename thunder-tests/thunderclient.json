@@ -626,19 +626,19 @@
     "_id": "2ae3f49e-5be1-4548-a47f-da8707f59cb6",
     "colId": "465da08e-88b6-4ccd-bc1e-767d1689304a",
     "containerId": "",
-    "name": "POS create product order",
-    "url": "{{baseurl}}/v1/pos/productorder",
-    "method": "POST",
+    "name": "POS get product",
+    "url": "{{baseurl}}/v1/pos/product",
+    "method": "GET",
     "sortNum": 20000,
     "created": "2022-10-04T03:11:07.718Z",
-    "modified": "2022-10-05T15:37:59.115Z",
-    "headers": [],
+    "modified": "2022-11-16T20:39:52.631Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJpcWJhbHVkZGluc2hAZ21haWwuY29tIiwiZXhwIjoxNjY5MjM1OTc2MDYxLCJpYXQiOjE2Njg2MzExNzZ9._DmXJnP53oughgPkPfUlfqF752HdFscjMWeyCcBfMII"
+      }
+    ],
     "params": [],
-    "body": {
-      "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": {\n        \"skuId\": 1,\n        \"qty\": 1,\n        \"price\": 1,\n        \"weight\": 0,\n        \"total\": 1\n      },\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 1\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 0,\n  \"total\": 1\n}",
-      "form": []
-    },
     "tests": []
   },
   {
@@ -2243,6 +2243,25 @@
         "isPath": false
       }
     ],
+    "tests": []
+  },
+  {
+    "_id": "b2c9c2ed-cf89-4c78-8fe6-a1ade1eb070e",
+    "colId": "465da08e-88b6-4ccd-bc1e-767d1689304a",
+    "containerId": "",
+    "name": "POS create product order",
+    "url": "{{baseurl}}/v1/pos/productorder",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-11-16T20:37:38.898Z",
+    "modified": "2022-11-16T20:37:38.898Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": {\n        \"skuId\": 1,\n        \"qty\": 1,\n        \"price\": 1,\n        \"weight\": 0,\n        \"total\": 1\n      },\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 1\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 0,\n  \"total\": 1\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
