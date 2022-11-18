@@ -2141,12 +2141,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-05T04:52:44.430Z",
+    "modified": "2022-11-17T14:59:58.149Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"082136106764\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
+      "raw": "{\n  \"ProCode\": \"111111\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022637\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
       "form": []
     },
     "tests": []
@@ -2254,12 +2254,17 @@
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-11-16T20:37:38.898Z",
-    "modified": "2022-11-16T20:37:38.898Z",
-    "headers": [],
+    "modified": "2022-11-18T12:25:33.646Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJpcWJhbHVkZGluc2hAZ21haWwuY29tIiwiZXhwIjoxNjY5Mzc4OTc1ODMxLCJpYXQiOjE2Njg3NzQxNzV9.Sln6cLbO0ffvom-MiOgOO_XfV4wGFWzWlHVA3NS9WOg"
+      }
+    ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": {\n        \"skuId\": 1,\n        \"qty\": 1,\n        \"price\": 1,\n        \"weight\": 0,\n        \"total\": 1\n      },\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"total\": 1\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 0,\n  \"total\": 1\n}",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 1,\n          \"price\": 501,\n          \"weight\": 0,\n          \"totalSkuPrice\": 501\n        }\n      ],\n      \"storeId\": 1,\n      \"shippingTotal\": 0,\n      \"subTotalOrderDetail\": 501,\n      \"totalOrderDetail\": 501\n    }\n  ],\n  \"miscellaneous\": 0,\n  \"discount\": 0,\n  \"subtotal\": 501,\n  \"gasefee\": 0.00105,\n  \"admfee\": 50.1,\n  \"total\": 551.10105\n}",
       "form": []
     },
     "tests": []
