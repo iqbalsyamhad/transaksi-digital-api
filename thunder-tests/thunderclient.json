@@ -1542,12 +1542,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-10-23T04:45:27.598Z",
-    "modified": "2022-10-23T07:54:49.026Z",
+    "modified": "2022-12-01T14:53:03.170Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 1,\n          \"qty\": 4\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"code\": \"jne\"\n      }\n    }\n  ]\n}",
+      "raw": "{\n  \"orders\": [\n    {\n      \"sku\": [\n        {\n          \"skuId\": 33,\n          \"qty\": 1\n        }\n      ],\n      \"storeId\": 1,\n      \"shipping\": {\n        \"addressBookId\": 1,\n        \"code\": \"jnt\"\n      }\n    }\n  ]\n}",
       "form": []
     },
     "tests": [],
