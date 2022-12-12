@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-10-25T12:55:09.901Z",
+    "modified": "2022-12-12T14:06:01.303Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"trader@digitogo.tech\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
