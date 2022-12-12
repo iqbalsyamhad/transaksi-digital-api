@@ -2364,13 +2364,24 @@
     "method": "PATCH",
     "sortNum": 250000,
     "created": "2022-12-12T13:45:21.423Z",
-    "modified": "2022-12-12T13:45:49.126Z",
+    "modified": "2022-12-12T13:57:35.245Z",
     "headers": [],
     "params": [],
     "body": {
-      "type": "json",
-      "raw": "{\n  \"value\": \"<h1>LOGIN</h1>\"\n}",
-      "form": []
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "value",
+          "value": "<h1>OK</h1>"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Downloads/5497185-ai.png"
+        }
+      ]
     },
     "tests": []
   }
