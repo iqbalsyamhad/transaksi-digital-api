@@ -1959,11 +1959,11 @@
     "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
     "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
     "name": "get privacy policy",
-    "url": "{{baseurl}}/v1/app/privacy",
+    "url": "{{baseurl}}/v1/app/login",
     "method": "GET",
     "sortNum": 225000,
     "created": "2022-10-27T19:50:06.796Z",
-    "modified": "2022-10-27T19:50:24.769Z",
+    "modified": "2022-12-12T13:46:07.972Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2332,6 +2332,44 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2637929202022637\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "177a31c7-be3b-4acb-8e77-3820bbb75487",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "Create app info key",
+    "url": "{{baseurl}}/v1/app/appinfo",
+    "method": "POST",
+    "sortNum": 240000,
+    "created": "2022-12-12T13:42:17.990Z",
+    "modified": "2022-12-12T13:44:40.244Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"key\": \"login\",\n  \"value\": \"<h1>PRIVACY POLICY</h1>\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6bdc9068-5015-4bc1-969a-367bf2ed739a",
+    "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
+    "containerId": "64931a94-668a-474d-96b2-771f455ef97b",
+    "name": "update app info key",
+    "url": "{{baseurl}}/v1/app/login",
+    "method": "PATCH",
+    "sortNum": 250000,
+    "created": "2022-12-12T13:45:21.423Z",
+    "modified": "2022-12-12T13:45:49.126Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"value\": \"<h1>LOGIN</h1>\"\n}",
       "form": []
     },
     "tests": []
