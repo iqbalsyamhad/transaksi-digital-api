@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "_id": "40b6fad9-9dba-42eb-a6ac-2245ecad2711",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://digitogo.tech/v1/user/1",
+    "url": "https://digitogo.tech/v1/user/1",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-12T13:16:33.646Z",
+    "modified": "2022-12-12T13:16:33.646Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"inactive\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "000a5baf-b0ef-4b5e-bffc-a640f1f63617",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://digitogo.tech/v1/user/2",
+    "url": "https://digitogo.tech/v1/user/2",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-12-12T13:17:01.879Z",
+    "modified": "2022-12-12T13:17:01.879Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"inactive\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5ae87c89-c689-4511-8b55-dd21c8b47b1f",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://digitogo.tech/v1/user/2",
+    "url": "https://digitogo.tech/v1/user/2",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-12T13:17:19.456Z",
+    "modified": "2022-12-12T13:17:19.456Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"inactive\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "64033e85-c536-4006-96ea-dd6285e2b453",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://digitogo.tech/v1/user/",
+    "url": "https://digitogo.tech/v1/user/",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-12T13:17:39.285Z",
+    "modified": "2022-12-12T13:17:39.285Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"active\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "86d3bf48-db10-4abd-91d5-6705c198b57f",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://digitogo.tech/v1/user/3",
+    "url": "https://digitogo.tech/v1/user/3",
+    "method": "PATCH",
+    "sortNum": 0,
+    "created": "2022-12-12T13:17:51.559Z",
+    "modified": "2022-12-12T13:18:02.322Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"suspend\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

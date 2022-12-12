@@ -801,11 +801,11 @@
     "colId": "1b64c0ce-fc64-46c6-a4ff-4b978a393bdb",
     "containerId": "411f5af8-dcf6-4fd2-ad6b-a3a7bd4b72eb",
     "name": "update nft",
-    "url": "{{baseurl}}/v1/nft/42dd9f9d-3756-4cfa-9edd-b129cf7cc07b",
+    "url": "{{baseurl}}/v1/nft/125dbcd1-613d-4cb4-9b2e-2754a638dacd",
     "method": "PATCH",
     "sortNum": 70000,
     "created": "2022-10-07T17:53:59.740Z",
-    "modified": "2022-11-12T07:08:20.756Z",
+    "modified": "2022-12-12T13:30:56.538Z",
     "headers": [],
     "params": [],
     "body": {
@@ -814,7 +814,8 @@
       "form": [
         {
           "name": "name",
-          "value": "NFT 2"
+          "value": "h",
+          "isDisabled": true
         },
         {
           "name": "price",
@@ -858,7 +859,14 @@
         },
         {
           "name": "description",
-          "value": ""
+          "value": "",
+          "isDisabled": true
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "../../../../Documents/2048px-Instagram_icon.png"
         }
       ]
     },
