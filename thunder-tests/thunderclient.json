@@ -2112,12 +2112,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-11-19T06:04:24.210Z",
+    "modified": "2022-12-13T14:10:22.809Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022637\",\n  \"Amount\": \"10000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"0\"\n}",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022633\",\n  \"Amount\": \"20000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"0\"\n}",
       "form": []
     },
     "tests": []
