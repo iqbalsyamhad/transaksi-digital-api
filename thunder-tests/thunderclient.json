@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2022-12-12T14:06:01.303Z",
+    "modified": "2022-12-13T02:54:57.494Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"trader@digitogo.tech\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"konsumen1@digitogo.tech\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -969,19 +969,13 @@
     "colId": "6877bb35-8bd9-4431-9c58-f718e2b727dc",
     "containerId": "",
     "name": "get MY nft",
-    "url": "{{baseurl}}/v1/nft/my?status=usaha",
+    "url": "{{baseurl}}/v1/nft/my",
     "method": "GET",
     "sortNum": 15000,
     "created": "2022-10-09T06:22:31.844Z",
-    "modified": "2022-11-03T12:41:54.594Z",
+    "modified": "2022-12-13T02:56:06.695Z",
     "headers": [],
-    "params": [
-      {
-        "name": "status",
-        "value": "usaha",
-        "isPath": false
-      }
-    ],
+    "params": [],
     "tests": []
   },
   {
@@ -1857,44 +1851,13 @@
     "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
     "containerId": "",
     "name": "get all",
-    "url": "{{baseurl}}/v1/history?page=1&limit=10&search=pdam&order=createdAt:desc&status=processing&dateRange=2022-10-17:2022-10-14",
+    "url": "{{baseurl}}/v1/history",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-10-25T15:46:57.522Z",
-    "modified": "2022-11-13T23:00:14.429Z",
+    "modified": "2022-12-13T02:55:17.937Z",
     "headers": [],
-    "params": [
-      {
-        "name": "page",
-        "value": "1",
-        "isPath": false
-      },
-      {
-        "name": "limit",
-        "value": "10",
-        "isPath": false
-      },
-      {
-        "name": "search",
-        "value": "pdam",
-        "isPath": false
-      },
-      {
-        "name": "order",
-        "value": "createdAt:desc",
-        "isPath": false
-      },
-      {
-        "name": "status",
-        "value": "processing",
-        "isPath": false
-      },
-      {
-        "name": "dateRange",
-        "value": "2022-10-17:2022-10-14",
-        "isPath": false
-      }
-    ],
+    "params": [],
     "tests": []
   },
   {
@@ -2233,24 +2196,13 @@
     "colId": "520d387d-e8f7-44fd-809f-c5754a9dadfd",
     "containerId": "",
     "name": "get nft histories",
-    "url": "{{baseurl}}/v1/history/nft?page=1&limit=2",
+    "url": "{{baseurl}}/v1/history/nft",
     "method": "GET",
     "sortNum": 40000,
     "created": "2022-11-11T10:03:16.711Z",
-    "modified": "2022-11-11T10:03:28.206Z",
+    "modified": "2022-12-13T02:55:33.191Z",
     "headers": [],
-    "params": [
-      {
-        "name": "page",
-        "value": "1",
-        "isPath": false
-      },
-      {
-        "name": "limit",
-        "value": "2",
-        "isPath": false
-      }
-    ],
+    "params": [],
     "tests": []
   },
   {
