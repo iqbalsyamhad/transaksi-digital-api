@@ -2112,7 +2112,7 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-12-13T14:16:54.070Z",
+    "modified": "2022-12-15T10:28:34.671Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2253,11 +2253,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "va inq local",
-    "url": "{{baseurl}}/v1/payment/va/inquiry",
+    "url": "http://digitogo.tech:3000/v1/payment/va/inquiry",
     "method": "POST",
     "sortNum": 15000,
     "created": "2022-11-18T23:19:59.193Z",
-    "modified": "2022-11-19T02:42:26.494Z",
+    "modified": "2022-12-15T09:48:22.801Z",
     "headers": [
       {
         "name": "Content-Type",
