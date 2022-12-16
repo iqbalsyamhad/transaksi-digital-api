@@ -512,11 +512,11 @@
     "colId": "0329c498-cfa8-4862-9cf3-a7fba4f8545e",
     "containerId": "d38c3427-a00d-48e3-8f24-37effe8e5221",
     "name": "get one product",
-    "url": "{{baseurl}}/v1/product/2",
+    "url": "{{baseurl}}/v1/product/23",
     "method": "GET",
     "sortNum": 30000,
     "created": "2022-10-01T07:15:27.279Z",
-    "modified": "2022-10-01T07:15:42.574Z",
+    "modified": "2022-12-16T14:09:34.648Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -2257,7 +2257,7 @@
     "method": "POST",
     "sortNum": 15000,
     "created": "2022-11-18T23:19:59.193Z",
-    "modified": "2022-12-15T12:32:13.281Z",
+    "modified": "2022-12-15T13:25:13.353Z",
     "headers": [
       {
         "name": "Content-Type",
