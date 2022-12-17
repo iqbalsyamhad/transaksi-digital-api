@@ -1198,12 +1198,12 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-10-15T04:06:19.354Z",
-    "modified": "2022-10-15T04:14:24.176Z",
+    "modified": "2022-12-16T15:38:31.855Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"membertypeId\": \"produsen\"\n}",
+      "raw": "{\n  \"membertypeId\": \"konsumen1\"\n}",
       "form": []
     },
     "tests": []
@@ -2335,6 +2335,53 @@
         }
       ]
     },
+    "tests": []
+  },
+  {
+    "_id": "9395091d-e2ac-4d46-8c72-5cde65e053aa",
+    "colId": "5ec93e95-f719-4b78-8892-6983985316fd",
+    "containerId": "",
+    "name": "get all va",
+    "url": "{{baseurl}}/v1/payment/backoffice/vas",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-16T16:25:47.791Z",
+    "modified": "2022-12-16T16:26:32.732Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2fb6f653-6b2b-41ea-8a4e-4104449e48ec",
+    "colId": "5ec93e95-f719-4b78-8892-6983985316fd",
+    "containerId": "",
+    "name": "post va payment",
+    "url": "{{baseurl}}/v1/payment/backoffice/vapay",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-17T08:20:54.990Z",
+    "modified": "2022-12-17T08:24:10.555Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"vanumber\": \"123\",\n  \"amount\": 10000\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f91c501d-7d12-4557-8a8d-120d293c4396",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "topup",
+    "url": "{{baseurl}}/v1/wallet/topup",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-17T08:27:27.174Z",
+    "modified": "2022-12-17T08:37:48.497Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
