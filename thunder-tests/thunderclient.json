@@ -2433,5 +2433,57 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "56b5c16c-b1c8-4572-ba67-9b0daaf940e8",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "coin price inquiry",
+    "url": "{{baseurl}}/v1/wallet/transaction/inquiry",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-12-17T12:13:52.607Z",
+    "modified": "2022-12-17T12:14:11.465Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9c23943b-fe3c-4eb5-a66d-7a468895742d",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "buy coin",
+    "url": "{{baseurl}}/v1/wallet/buycoin",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-12-17T12:40:44.164Z",
+    "modified": "2022-12-17T12:43:02.941Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"coin\": 0.01\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e1aacbd2-b8b6-45cd-bb71-7968b18a7eb6",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "sell coin",
+    "url": "{{baseurl}}/v1/wallet/sellcoin",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-12-17T12:43:34.461Z",
+    "modified": "2022-12-17T12:43:54.000Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"coin\": 1\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
