@@ -2383,5 +2383,55 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "cfafca83-8688-46d3-838f-43c1fe974311",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "get token transactions",
+    "url": "{{baseurl}}/v1/wallet/transaction/token?page=&limit=10",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-12-17T10:48:00.296Z",
+    "modified": "2022-12-17T10:48:23.398Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "10",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "1e2c9e78-24d7-49cc-81cd-22b4cd9958fb",
+    "colId": "7c0d4993-fde5-4327-ac04-c5e6d1449f3f",
+    "containerId": "",
+    "name": "get coin transactions",
+    "url": "{{baseurl}}/v1/wallet/transaction/coin?page=&limit=10",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-17T10:48:38.770Z",
+    "modified": "2022-12-17T10:48:55.055Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "10",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
