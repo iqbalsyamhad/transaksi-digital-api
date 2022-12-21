@@ -2072,7 +2072,7 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-03T14:11:07.210Z",
-    "modified": "2022-11-05T04:18:52.569Z",
+    "modified": "2022-12-21T16:07:44.459Z",
     "headers": [
       {
         "name": "Content-Type",
@@ -2088,7 +2088,7 @@
       },
       {
         "name": "relativepath",
-        "value": "/api/v1/va/inquiry"
+        "value": "/api/v1/ibft/inquiry"
       },
       {
         "name": "timestamp",
@@ -2098,7 +2098,7 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"1\",\n  \"TransactionDate\": \"20221104205200\"\n}",
+      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\"\n}",
       "form": []
     },
     "tests": []
@@ -2548,6 +2548,46 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"bankAccountId\": 1,\n  \"amount\": 10000\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "627420b8-2b3a-4680-885f-60d986aea67b",
+    "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
+    "containerId": "",
+    "name": "forward all",
+    "url": "http://digitogo.tech:3000/v1/payment/forwardall",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2022-12-21T16:04:11.493Z",
+    "modified": "2022-12-21T16:08:51.141Z",
+    "headers": [
+      {
+        "name": "agiurl",
+        "value": "https://115.85.74.55:7065/api/v1/ibft/inquiry"
+      },
+      {
+        "name": "Api-Key",
+        "value": "94a56499-a7f8-42ec-9730-0376b8548f08"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Timestamp",
+        "value": "2022-12-21T22:06:11.000Z"
+      },
+      {
+        "name": "Signature",
+        "value": "14d1059212d062af2ffaf3c27deb50accdd38f2b7e8c36c235fe9cd2c77ae872"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\"\n}",
       "form": []
     },
     "tests": []
