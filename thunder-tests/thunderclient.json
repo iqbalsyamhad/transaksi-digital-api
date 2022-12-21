@@ -2485,5 +2485,71 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "547fdbab-17a0-4f7e-a6f4-78a380084d82",
+    "colId": "6c62a8cb-3ab8-42b8-9bd2-1bff72167d24",
+    "containerId": "",
+    "name": "get",
+    "url": "{{baseurl}}/v1/bankaccount",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-21T14:46:07.648Z",
+    "modified": "2022-12-21T14:46:28.946Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a1688cdb-39de-4485-872f-f91b8a4376ff",
+    "colId": "6c62a8cb-3ab8-42b8-9bd2-1bff72167d24",
+    "containerId": "",
+    "name": "create",
+    "url": "{{baseurl}}/v1/bankaccount",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-21T14:46:33.555Z",
+    "modified": "2022-12-21T14:47:00.141Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"IQBAL\",\n  \"number\": \"234422323\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2ca79109-818d-4235-9d76-eda6861614a8",
+    "colId": "31587066-ea14-49a1-bff4-b8e9f5f5c393",
+    "containerId": "",
+    "name": "get",
+    "url": "{{baseurl}}/v1/withdraw",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-21T14:47:23.109Z",
+    "modified": "2022-12-21T14:47:34.207Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8c533f8b-3c5d-4b22-b130-5ef123418591",
+    "colId": "31587066-ea14-49a1-bff4-b8e9f5f5c393",
+    "containerId": "",
+    "name": "create",
+    "url": "{{baseurl}}/v1/withdraw",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-21T14:47:38.205Z",
+    "modified": "2022-12-21T14:50:24.694Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"bankAccountId\": 1,\n  \"amount\": 10000\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
