@@ -2108,11 +2108,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry incoming va",
-    "url": "https://digitogo.tech/v1/payment/forward",
+    "url": "http://digitogo.tech:3000/v1/payment/forward",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-12-15T10:40:29.955Z",
+    "modified": "2022-12-21T15:19:42.389Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2234,16 +2234,16 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry balance",
-    "url": "https://digitogo.tech/v1/payment/balanceinq",
+    "url": "http://digitogo.tech:3000/v1/payment/balanceinq",
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-11-18T12:58:49.498Z",
-    "modified": "2022-11-19T06:00:15.793Z",
+    "modified": "2022-12-21T15:19:11.649Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678245\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\"\n}",
+      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\"\n}",
       "form": []
     },
     "tests": []
