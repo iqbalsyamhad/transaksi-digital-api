@@ -2557,11 +2557,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "forward all",
-    "url": "https://digitogo.tech/v1/payment/forwardall",
+    "url": "http://digitogo.tech:3000/v1/payment/forwardall",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-12-21T16:04:11.493Z",
-    "modified": "2022-12-22T07:13:26.861Z",
+    "modified": "2022-12-22T07:43:06.023Z",
     "headers": [
       {
         "name": "agiurl",
@@ -2569,11 +2569,13 @@
       },
       {
         "name": "Api-Key",
-        "value": "94a56499-a7f8-42ec-9730-0376b8548f08"
+        "value": "94a56499-a7f8-42ec-9730-0376b8548f08",
+        "isDisabled": true
       },
       {
         "name": "Content-Type",
-        "value": "application/json"
+        "value": "application/json",
+        "isDisabled": true
       },
       {
         "name": "Timestamp",
