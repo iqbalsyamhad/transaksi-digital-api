@@ -2557,11 +2557,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "forward all",
-    "url": "http://digitogo.tech:3000/v1/payment/forwardall",
+    "url": "https://digitogo.tech/v1/payment/forwardall",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-12-21T16:04:11.493Z",
-    "modified": "2022-12-21T16:08:51.141Z",
+    "modified": "2022-12-21T16:14:30.741Z",
     "headers": [
       {
         "name": "agiurl",
@@ -2577,11 +2577,11 @@
       },
       {
         "name": "Timestamp",
-        "value": "2022-12-21T22:06:11.000Z"
+        "value": "2022-12-22T00:12:03.868+08:00"
       },
       {
         "name": "Signature",
-        "value": "14d1059212d062af2ffaf3c27deb50accdd38f2b7e8c36c235fe9cd2c77ae872"
+        "value": "3c9d1ca34b482fa5830822283826c28d24f5465a1dc984ce5e112857208a0ef0"
       }
     ],
     "params": [],
