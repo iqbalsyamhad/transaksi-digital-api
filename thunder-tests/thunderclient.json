@@ -2108,11 +2108,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "inquiry incoming va",
-    "url": "http://digitogo.tech:3000/v1/payment/forward",
+    "url": "http://digitogo.tech:443/v1/payment/forward",
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-11-03T14:24:55.749Z",
-    "modified": "2022-12-21T15:19:42.389Z",
+    "modified": "2022-12-23T15:44:13.553Z",
     "headers": [],
     "params": [],
     "body": {
@@ -2253,15 +2253,15 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "va inq local",
-    "url": "http://digitogo.tech:3000/v1/payment/va/inquiry",
+    "url": "http://digitogo.tech:443/v1/payment/va/inquiry",
     "method": "POST",
     "sortNum": 15000,
     "created": "2022-11-18T23:19:59.193Z",
-    "modified": "2022-12-15T13:25:13.353Z",
+    "modified": "2022-12-23T15:47:05.938Z",
     "headers": [
       {
         "name": "Content-Type",
-        "value": "application/xml"
+        "value": "application/json"
       },
       {
         "name": "API-Key",
@@ -2557,39 +2557,21 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "forward all",
-    "url": "{{baseurl}}/v1/payment/forwardall",
+    "url": "https://digitogo.tech/v1/payment/forwardall",
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-12-21T16:04:11.493Z",
-    "modified": "2022-12-22T15:11:22.594Z",
+    "modified": "2022-12-24T14:16:16.381Z",
     "headers": [
       {
         "name": "agiurl",
-        "value": "https://115.85.74.55:7065/api/v1/va/transactionNotif"
-      },
-      {
-        "name": "Api-Key",
-        "value": "94a56499-a7f8-42ec-9730-0376b8548f08",
-        "isDisabled": true
-      },
-      {
-        "name": "Content-Type",
-        "value": "application/json",
-        "isDisabled": true
-      },
-      {
-        "name": "Timestamp",
-        "value": "2022-11-04T20:52:00.000+07:00"
-      },
-      {
-        "name": "Signature",
-        "value": "cffe2573c75be2aed34126ddfd828c788a31d802bedd35093bf85a999fd99b86"
+        "value": "https://115.85.74.55:7065/api/v1/va/inquiry"
       }
     ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"TransactionId\": \"823345678245\",\n  \"MerchantId\": \"KMPTG1\",\n  \"OrderId\": \"0425174456000001\",\n  \"TransactionDate\": \"20190420175534\",\n  \"CustomerNo\": \"5582929202020202\",\n  \"CustomerName\": \"RULLY BEGARA\",\n  \"Amount\": \"100000\",\n  \"AdditionalData\": \"1234\"\n}",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022633\",\n  \"Amount\": \"20000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"0\"\n}",
       "form": []
     },
     "tests": []
