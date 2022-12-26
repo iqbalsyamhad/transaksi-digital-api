@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-28T16:10:26.698Z",
-    "modified": "2022-10-21T00:51:21.321Z",
+    "modified": "2022-12-26T11:49:36.196Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+62877132322\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
       "form": []
     },
     "tests": []
