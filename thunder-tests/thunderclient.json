@@ -1198,12 +1198,12 @@
     "method": "POST",
     "sortNum": 40000,
     "created": "2022-10-15T04:06:19.354Z",
-    "modified": "2022-12-16T15:38:31.855Z",
+    "modified": "2022-12-26T16:17:17.091Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"membertypeId\": \"konsumen1\"\n}",
+      "raw": "{\n  \"membertypeId\": \"konsumen2\"\n}",
       "form": []
     },
     "tests": []
