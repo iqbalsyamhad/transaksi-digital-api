@@ -2561,17 +2561,17 @@
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-12-21T16:04:11.493Z",
-    "modified": "2022-12-24T14:16:16.381Z",
+    "modified": "2022-12-26T05:19:27.193Z",
     "headers": [
       {
         "name": "agiurl",
-        "value": "https://115.85.74.55:7065/api/v1/va/inquiry"
+        "value": "https://115.85.74.55:7065/api/v1/account/history"
       }
     ],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022633\",\n  \"Amount\": \"20000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"0\"\n}",
+      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\",\n  \"StartDate\": \"20220927\",\n  \"EndDate\": \"20221015\"\n}",
       "form": []
     },
     "tests": []
