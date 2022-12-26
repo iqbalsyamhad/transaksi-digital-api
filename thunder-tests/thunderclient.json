@@ -2253,11 +2253,11 @@
     "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
     "containerId": "",
     "name": "va inq local",
-    "url": "http://digitogo.tech:443/v1/payment/va/inquiry",
+    "url": "{{baseurl}}/v1/payment/va/inquiry",
     "method": "POST",
     "sortNum": 15000,
     "created": "2022-11-18T23:19:59.193Z",
-    "modified": "2022-12-23T15:47:05.938Z",
+    "modified": "2022-12-26T03:49:50.142Z",
     "headers": [
       {
         "name": "Content-Type",
@@ -2282,8 +2282,8 @@
     ],
     "params": [],
     "body": {
-      "type": "xml",
-      "raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenc=\"http://schemas.xmlsoap.org/soap/encoding/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n   <soapenv:Body>   \n          <ns6:inquiry xmlns:ns6=\"http://service.api.mlpt.com\">\n               <ns6:request>\n                    <ns3:additionalData xmlns:ns3=\"http://request.api.mlpt.com\">notifikasi transfer incoming BAGI</ns3:additionalData>\n                    <ns3:amount xmlns:ns3=\"http://request.api.mlpt.com\">54368</ns3:amount>\n                    <ns3:customerNo xmlns:ns3=\"http://request.api.mlpt.com\">8989123456789012</ns3:customerNo>\n                    <ns3:flagAmountCheck xmlns:ns3=\"http://request.api.mlpt.com\">0</ns3:flagAmountCheck>\n                    <ns3:merchantId xmlns:ns3=\"http://request.api.mlpt.com\">AGGI10</ns3:merchantId>\n                    <ns3:proCode xmlns:ns3=\"http://request.api.mlpt.com\">390000</ns3:proCode>\n                    <ns3:transactionId xmlns:ns3=\"http://request.api.mlpt.com\">232208002007</ns3:transactionId>\n               </ns6:request>\n          </ns6:inquiry>\n     </soapenv:Body>\n</soapenv:Envelope>",
+      "type": "json",
+      "raw": "{\n  \"ProCode\": \"100600\",\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"CustomerNo\": \"2636929202022633\",\n  \"Amount\": \"20000\",\n  \"AdditionalData\": \"1234\",\n  \"FlagAmountCheck\": \"0\"\n}",
       "form": []
     },
     "tests": []
