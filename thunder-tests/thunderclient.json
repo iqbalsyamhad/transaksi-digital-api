@@ -2561,7 +2561,7 @@
     "method": "POST",
     "sortNum": 50000,
     "created": "2022-12-21T16:04:11.493Z",
-    "modified": "2022-12-26T05:19:27.193Z",
+    "modified": "2022-12-27T12:59:09.759Z",
     "headers": [
       {
         "name": "agiurl",
@@ -2571,7 +2571,31 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\",\n  \"StartDate\": \"20220927\",\n  \"EndDate\": \"20221015\"\n}",
+      "raw": "{\n  \"ProCode\": \"160022\",\n  \"TransactionId\": \"823345678246\",\n  \"MerchantId\": \"KMPTG1\",\n  \"AccountNo\": \"1077568227\",\n  \"StartDate\": \"20221201\",\n  \"EndDate\": \"20221227\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4630b0f1-5fe9-46a1-9f7f-80feb53bbb23",
+    "colId": "bf914c9f-4504-46a6-bf51-d7ece2f0b0d0",
+    "containerId": "",
+    "name": "forward send notif",
+    "url": "https://digitogo.tech/v1/payment/forwardall",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-12-27T14:49:38.145Z",
+    "modified": "2022-12-27T14:52:33.087Z",
+    "headers": [
+      {
+        "name": "agiurl",
+        "value": "https://115.85.74.55:7065/api/v1/va/transactionNotif"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"TransactionId\": \"123456789012\",\n  \"MerchantId\": \"KMPTG1\",\n  \"OrderId\": \"0425174456000001\",\n  \"TransactionDate\": \"20190420175534\",\n  \"CustomerNo\": \"2636929202022633\",\n  \"CustomerName\": \"AWESOME USER\",\n  \"Amount\": \"20000\",\n  \"AdditionalData\": \"1234\"\n}",
       "form": []
     },
     "tests": []
