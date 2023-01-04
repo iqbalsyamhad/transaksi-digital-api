@@ -7,3 +7,4 @@ package.json
 tsconfig.json
 .sequelizerc
 .env
+bin
