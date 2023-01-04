@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-09-28T16:10:26.698Z",
-    "modified": "2022-12-31T10:24:36.520Z",
+    "modified": "2023-01-04T15:08:54.780Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+62821361067643\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6281514142468\"\n}",
       "form": []
     },
     "tests": []
@@ -27,12 +27,12 @@
     "method": "PUT",
     "sortNum": 20000,
     "created": "2022-09-28T16:12:25.344Z",
-    "modified": "2022-10-21T00:51:27.257Z",
+    "modified": "2023-01-04T15:09:16.832Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"phoneNumber\": \"+62877132322\",\n  \"otp\": \"000000\"\n}",
+      "raw": "{\n  \"phoneNumber\": \"+6281514142468\",\n  \"otp\": \"175385\"\n}",
       "form": []
     },
     "tests": []
@@ -165,11 +165,11 @@
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
     "name": "get my info",
-    "url": "{{baseurl}}/v1/user/me",
+    "url": "{{baseurl}}/v1/user",
     "method": "GET",
     "sortNum": 10000,
     "created": "2022-09-29T11:34:16.922Z",
-    "modified": "2022-10-18T16:18:03.985Z",
+    "modified": "2023-01-04T15:11:49.796Z",
     "headers": [
       {
         "name": "Authorization",
