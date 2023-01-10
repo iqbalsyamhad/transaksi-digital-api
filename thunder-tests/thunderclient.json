@@ -1390,11 +1390,11 @@
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
     "name": "activate user wallet",
-    "url": "{{baseurl}}/v1/wallet",
+    "url": "{{baseurl}}/v1/wallet/activate/2",
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-21T00:46:10.219Z",
-    "modified": "2022-10-21T00:49:24.204Z",
+    "modified": "2023-01-10T12:36:38.803Z",
     "headers": [],
     "params": [],
     "tests": []
