@@ -1390,11 +1390,11 @@
     "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
     "containerId": "",
     "name": "activate user wallet",
-    "url": "{{baseurl}}/v1/wallet/activate/2",
+    "url": "{{baseurl}}/v1/wallet/activate/56",
     "method": "POST",
     "sortNum": 30000,
     "created": "2022-10-21T00:46:10.219Z",
-    "modified": "2023-01-10T12:36:38.803Z",
+    "modified": "2023-01-10T12:43:36.424Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -2360,12 +2360,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-12-17T08:20:54.990Z",
-    "modified": "2022-12-18T13:48:33.334Z",
+    "modified": "2023-01-10T12:46:45.334Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"vanumber\": \"2637628771323252\",\n  \"amount\": 100000\n}",
+      "raw": "{\n  \"vanumber\": \"2636082136106764\",\n  \"amount\": 10000\n}",
       "form": []
     },
     "tests": []
