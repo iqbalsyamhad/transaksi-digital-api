@@ -65,12 +65,12 @@
     "method": "POST",
     "sortNum": 5000,
     "created": "2022-09-28T16:13:18.207Z",
-    "modified": "2023-01-07T14:59:06.859Z",
+    "modified": "2023-01-15T14:30:25.034Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"iqbaluddinsh@gmail.com\",\n  \"password\": \"1234567\"\n}",
       "form": []
     },
     "tests": []
@@ -2647,6 +2647,44 @@
     "body": {
       "type": "json",
       "raw": "{\n  \"key\": \"login\",\n  \"value\": \"<h1>PRIVACY POLICY</h1>\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7ac0c0bd-8604-4928-a6e5-883435a2507a",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "password reset inquiry",
+    "url": "{{baseurl}}/v1/recovery/password",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2023-01-13T04:31:38.007Z",
+    "modified": "2023-01-13T04:32:15.087Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "5d8f164a-3cea-4bcb-a540-81b997ce4765",
+    "colId": "174e3321-1107-4fe0-9a52-4406ea57036a",
+    "containerId": "",
+    "name": "password reset submit",
+    "url": "{{baseurl}}/v1/recovery/password",
+    "method": "PATCH",
+    "sortNum": 70000,
+    "created": "2023-01-13T04:32:30.043Z",
+    "modified": "2023-01-15T14:30:16.642Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"phoneNumber\": \"+6282136106764\",\n  \"password\": \"1234567\",\n  \"recoveryToken\": \"00ad60ab680c5e78c5a784ddba2f16bc\"\n}",
       "form": []
     },
     "tests": []
