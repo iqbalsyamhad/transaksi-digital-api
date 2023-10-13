@@ -1,5 +1,5 @@
 {
-  "name": "kmp2go-api",
+  "name": "digital-transaksi-api",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/src/index.js",
