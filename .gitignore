@@ -1,5 +1,5 @@
 node_modules
-thunder-tests
+/thunder-tests
 /dist/src
 /src
 public
