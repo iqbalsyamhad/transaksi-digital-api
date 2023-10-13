@@ -4,13 +4,13 @@
   <br>
 </h1>
 
-<h4 align="center">Backend application of Digital Transaction app built with <a href="https://nodejs.org/en" target="_blank">Node</a>.</h4>
+<h4 align="center">Backend application of digital transaction app built with <a href="https://nodejs.org/en" target="_blank">Node</a>.</h4>
 
 ![screenshot](https://raw.githubusercontent.com/iqbalsyamhad/transaksi-digital-api/master/api-collection.png)
 
 ## Tech Stack
 
-* REST Apis
+* REST APIs
 * Typescript
 * Node.js
 * Mysql with Sequelize
@@ -22,6 +22,7 @@
   - Realtime codebuild with nodemon.
 * Request validation
 * JSON response formatter
+* Multi language responses (internationalization)
 * JWT Authentication
 * KTP OCR with 3rd party service
 * Membership roles
@@ -31,7 +32,6 @@
 * Direct bank integration
 * PPOB integration
   - Make various digital transaction like bill, prepaid and postpaid payment.
-* Multi language responses (internationalization)
 * Grafana log monitoring
 * Thunder-client API Collection
 
