@@ -1,11 +1,8 @@
 node_modules
 /thunder-tests
 /dist/src
-/src
 public
 package-lock.json
-package.json
-tsconfig.json
 .sequelizerc
 .env
 bin
