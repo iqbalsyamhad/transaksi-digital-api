@@ -1,7 +1,9 @@
 node_modules
 thunder-tests
+ekyc-bridging-php
 dist
 public
+utils
 package-lock.json
 .sequelizerc
 .env
