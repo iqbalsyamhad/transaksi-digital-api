@@ -1,6 +1,6 @@
 node_modules
-/thunder-tests
-/dist/src
+thunder-tests
+dist
 public
 package-lock.json
 .sequelizerc
